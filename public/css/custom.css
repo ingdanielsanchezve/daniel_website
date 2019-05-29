@@ -1,1 +1,29 @@
 /* Add here all your CSS customizations */
+/* Progress Bar always visible */
+.progress-bar.appear-animation {
+	opacity: 1 !important;
+}
+
+/* Set time of transition on animation of progress-bars */
+.progress-bar.custom-transition {
+	-webkit-transition: ease all 5000ms !important;
+        -moz-transition: ease all 5000ms !important;
+        -ms-transition: ease all 5000ms !important;
+        -o-transition: ease all 5000ms !important;
+        transition: ease all 5000ms !important;
+}
+
+/* 100% */
+.progress-100 {
+	width: 100% !important;
+}
+
+/* 85% */
+.progress-85 {
+	width: 85% !important;
+}
+
+/* 30% */
+.progress-30 {
+	width: 30% !important;
+}

@@ -28,6 +28,9 @@
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
 		
+		<!-- Theme Custom -->
+		<script src="js/view.contact.js"></script>
+		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
