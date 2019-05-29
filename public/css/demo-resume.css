@@ -57,6 +57,10 @@ section.section {
 	color: #4a3b00 !important;
 }
 
+.custom-text-color-4 {
+	color: #ececec !important;
+}
+
 .parallax-no-overflow {
 	overflow: visible !important;
 }
