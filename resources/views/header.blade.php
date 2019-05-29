@@ -27,6 +27,12 @@
 														</a>
 													</li>
 													<li>
+														<a data-hash href="#certification" class="nav-link text-color-light bg-color-primary">
+															<i class="icon-badge icons"></i>
+															<span class="custom-tooltip">Certifications</span>
+														</a>
+													</li>													
+													<li>
 														<a data-hash href="#recommendations" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-pencil icons"></i>
 															<span class="custom-tooltip">Recommendations</span>

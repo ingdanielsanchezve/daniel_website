@@ -7,6 +7,7 @@
 @include('details')
 @include('experience')
 @include('education')
+@include('certification')
 @include('recommendations')
 @include('skills')
 @include('portfolio')
