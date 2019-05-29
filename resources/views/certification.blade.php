@@ -1,4 +1,4 @@
-			<section id="certification" class="section section-no-border custom-bg-color-1 m-0">
+			<section id="certification" class="section section-secondary section-no-border m-0">
 				<div class="container">
 					<div class="row">
 						<div class="col">
