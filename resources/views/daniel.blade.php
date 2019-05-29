@@ -10,5 +10,6 @@
 @include('recommendations')
 @include('skills')
 @include('portfolio')
-<!-- @include('blog') -->
 @include('contact')
+
+@endsection
