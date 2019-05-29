@@ -9,43 +9,43 @@
 											<nav class="wrapper-spy collapse">
 												<ul class="nav" id="mainNav">
 													<li>
-														<a href="#about-me" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#about-me" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-home icons"></i>
 															<span class="custom-tooltip">About Me</span>
 														</a>
 													</li>
 													<li>
-														<a href="#experience" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#experience" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-eye icons"></i>
 															<span class="custom-tooltip">Experience</span>
 														</a>
 													</li>
 													<li>
-														<a href="#education" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#education" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-briefcase icons"></i>
 															<span class="custom-tooltip">Education</span>
 														</a>
 													</li>
 													<li>
-														<a href="#recommendations" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#recommendations" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-pencil icons"></i>
 															<span class="custom-tooltip">Recommendations</span>
 														</a>
 													</li>
 													<li>
-														<a href="#skills" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#skills" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-graduation icons"></i>
 															<span class="custom-tooltip">Skills</span>
 														</a>
 													</li>
 													<li>
-														<a href="#portfolio" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#portfolio" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-diamond icons"></i>
 															<span class="custom-tooltip">Portfolio</span>
 														</a>
 													</li>													
 													<li>
-														<a href="#say-hello" class="nav-link text-color-dark bg-color-primary">
+														<a data-hash href="#say-hello" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-envelope-open icons"></i>
 															<span class="custom-tooltip">Say Hello</span>
 														</a>

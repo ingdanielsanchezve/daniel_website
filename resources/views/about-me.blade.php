@@ -27,5 +27,21 @@
 						</div>
 					</div>
 				</div>
-				
+				<ul class="social-icons custom-social-icons">
+					<li class="social-icons-linkedin">
+						<a href="https://www.linkedin.com/in/ingdanielsanchezvzla/" target="_blank" title="LinkedIn">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+					<li class="social-icons-github">
+						<a href="https://github.com/ingdanielsanchezve/" target="_blank" title="GitHub">
+							<i class="fab fa-github"></i>
+						</a>
+					</li>					
+					<li class="social-icons-skype">
+						<a href="skype:live:ing.danielsanchez?chat" target="_blank" title="Skype">
+							<i class="fab fa-skype"></i>
+						</a>
+					</li>					
+				</ul>
 			</section>
