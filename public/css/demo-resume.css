@@ -215,9 +215,11 @@ section.section {
 }
 #header.header-floating-icons .header-nav-main nav > ul > li > a.active {
 	background: #FFF !important;
+	color: #1e1e1e !important;
 }
 #header.header-floating-icons .header-nav-main nav > ul > li > a.active:after {
 	background: #FFF;
+	color: #1e1e1e !important;
 }
 
 @media (min-width: 992px) {
@@ -251,6 +253,7 @@ section.section {
 	#header.header-floating-icons .header-nav-main nav > ul > li:hover > a > span {
 		-webkit-transform: rotateY(0deg);
 						transform: rotateY(0deg);
+						color: #1e1e1e;
 	}
 	#header.header-floating-icons .header-nav-main nav > ul > li > a {
 		font-size: 25px;
@@ -920,7 +923,7 @@ section.custom-timeline .timeline-box .experience-info .company > span {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #d8b113;
-	color: #1e1e1e;
+	color: #fff;
 	font-size: 12px;
 	padding: 6px 0;
 	margin-bottom: 15px;
@@ -928,22 +931,22 @@ section.custom-timeline .timeline-box .experience-info .company > span {
 					box-shadow: none;
 }
 .custom-form-style .form-control-custom .form-control::-webkit-input-placeholder {
-	color: #1e1e1e;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 .custom-form-style .form-control-custom .form-control::-moz-placeholder {
-	color: #1e1e1e;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 .custom-form-style .form-control-custom .form-control:-ms-input-placeholder {
-	color: #1e1e1e;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 .custom-form-style .form-control-custom .form-control:-moz-placeholder {
-	color: #1e1e1e;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 }

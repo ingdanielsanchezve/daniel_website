@@ -8,18 +8,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Apr 2018</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Jul 2018</span>
 												</span>
-												<p class="text-color-dark">(4 months)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(4 months)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Reliq Health Systems <br> (Contracted by Cecropia Solutions)
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">New York, USA (Remote)</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">New York, USA (Remote)</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
@@ -42,18 +42,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Jul 2017</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Mar 2018</span>
 												</span>
-												<p class="text-color-dark">(9 months)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(9 months)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Berkery Noyes LLC <br> (Contracted by Cecropia Solutions)
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">New York, USA (Remote)</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">New York, USA (Remote)</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
@@ -77,18 +77,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Oct 2015</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Sep 2017</span>
 												</span>
-												<p class="text-color-dark">(2 Years)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(2 Years)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Soy Empleo SAS
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">Valencia - Venezuela</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">Valencia - Venezuela</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
@@ -114,18 +114,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Sep 2013</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Nov 2015</span>
 												</span>
-												<p class="text-color-dark">(2 Years 3 Months)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(2 Years 3 Months)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Octopus Software
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">Valencia - Venezuela</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">Valencia - Venezuela</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
@@ -146,18 +146,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Jan 2012</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Jul 2014</span>
 												</span>
-												<p class="text-color-dark">(2 Years 7 Months)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(2 Years 7 Months)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Valencia City Hall
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">Valencia - Venezuela</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">Valencia - Venezuela</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
@@ -175,18 +175,18 @@
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
-												<span class="from text-color-dark text-uppercase">
+												<span class="from text-color-light text-uppercase">
 													From
 													<span class="font-weight-semibold">Aug 2008</span>
 												</span>
-												<span class="to text-color-dark text-uppercase">
+												<span class="to text-color-light text-uppercase">
 													To
 													<span class="font-weight-semibold">Jan 2012</span>
 												</span>
-												<p class="text-color-dark">(3 Years 6 Months)</p>
-												<span class="company text-color-dark font-weight-semibold">
+												<p class="text-color-light">(3 Years 6 Months)</p>
+												<span class="company text-color-light font-weight-semibold">
 													Valencia City Hall
-													<span class="company-location text-color-dark font-weight-normal text-uppercase">Valencia - Venezuela</span>
+													<span class="company-location text-color-light font-weight-normal text-uppercase">Valencia - Venezuela</span>
 												</span>
 											</div>
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">

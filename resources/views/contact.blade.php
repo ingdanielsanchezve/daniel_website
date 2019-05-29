@@ -5,7 +5,7 @@
 							<div class="row justify-content-end m-0">
 								<div class="col-half-section col-half-section-right mr-3">
 									
-									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<h2 class="text-color-light text-uppercase font-weight-extra-bold">Say Hello</h2>
 									<form id="contactForm" class="contact-form custom-form-style" action="php/contact-form.php" method="post">
 										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
 											<strong>Success!</strong> Your message has been sent to us.

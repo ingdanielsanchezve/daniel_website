@@ -3513,7 +3513,7 @@ html[dir="rtl"] #header .tip-light:before {
 
 	#header .header-nav-main nav > ul:not(:hover) > li > a.active {
 		background-color: #4dabf7;
-		color: #777;
+		color: #1e1e1e !important;
 	}
 
 	#header .header-nav.header-nav-stripe nav > ul > li:hover > a,

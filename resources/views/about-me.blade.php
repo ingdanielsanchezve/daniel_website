@@ -13,12 +13,12 @@
 								<span class="custom-text-color-1 text-uppercase">
 									<strong class="text-color-light">Previous: </strong>
 									Senior Front-End Developer
-									<a href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
 								</span>
 								<span class="custom-text-color-1 text-uppercase">
 									<strong class="text-color-light">Education: </strong>
 									Computer Engineer
-									<a href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
 								</span>
 							</span>
 						</div>
