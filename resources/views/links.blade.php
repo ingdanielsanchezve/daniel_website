@@ -18,7 +18,7 @@
 							</a>
 						</div>
 						<div class="col-lg-3 text-center p-0">
-							<a href="#" class="text-decoration-none">
+							<a href="cv/Daniel_Sanchez_Computer_Engineer.pdf" target="_blank" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">
 									<i class="icon-cloud-download icons text-color-primary"></i>
 									Download Resume	
