@@ -11,49 +11,49 @@
 													<li>
 														<a data-hash href="#about-me" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-home icons"></i>
-															<span class="custom-tooltip">About Me</span>
+															<span class="custom-tooltip">@lang('cv.about_me')</span>
 														</a>
 													</li>
 													<li>
 														<a data-hash href="#experience" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-eye icons"></i>
-															<span class="custom-tooltip">Experience</span>
+															<span class="custom-tooltip">@lang('cv.experience')</span>
 														</a>
 													</li>
 													<li>
 														<a data-hash href="#education" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-briefcase icons"></i>
-															<span class="custom-tooltip">Education</span>
+															<span class="custom-tooltip">@lang('cv.education')</span>
 														</a>
 													</li>
 													<li>
 														<a data-hash href="#certification" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-badge icons"></i>
-															<span class="custom-tooltip">Certifications</span>
+															<span class="custom-tooltip">@lang('cv.certifications')</span>
 														</a>
 													</li>													
 													<li>
 														<a data-hash href="#recommendations" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-pencil icons"></i>
-															<span class="custom-tooltip">Recommendations</span>
+															<span class="custom-tooltip">@lang('cv.recommendations')</span>
 														</a>
 													</li>
 													<li>
 														<a data-hash href="#skills" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-graduation icons"></i>
-															<span class="custom-tooltip">Skills</span>
+															<span class="custom-tooltip">@lang('cv.skills')</span>
 														</a>
 													</li>
 													<li>
 														<a data-hash href="#portfolio" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-diamond icons"></i>
-															<span class="custom-tooltip">Portfolio</span>
+															<span class="custom-tooltip">@lang('cv.portfolio')</span>
 														</a>
 													</li>													
 													<li>
 														<a data-hash href="#say-hello" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-envelope-open icons"></i>
-															<span class="custom-tooltip">Say Hello</span>
+															<span class="custom-tooltip">@lang('cv.say_hello')</span>
 														</a>
 													</li>
 												</ul>

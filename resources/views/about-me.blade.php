@@ -7,20 +7,20 @@
 							</a>
 						</div>
 						<div class="col-lg-6 col-xl-5">
-							<h1 class="text-color-primary custom-font-size-1">Daniel Sánchez</h1>
-							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">Full Stack Web Developer - Computer Engineer</p>
+							<h1 class="text-color-primary custom-font-size-1">{{$profile->name}}</h1>
+							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">{{$profile->title}}</p>
 							<span class="custom-about-me-infos">
-								<span class="custom-text-color-1 text-uppercase">Valencia Venezuela</span>
-								<span class="custom-text-color-1 text-uppercase mb-3">Information Technology &amp; Services</span>
+								<span class="custom-text-color-1 text-uppercase">{{$profile->location}}</span>
+								<span class="custom-text-color-1 text-uppercase mb-3">{{$profile->subtitle}}</span>
 								<span class="custom-text-color-1 text-uppercase">
-									<strong class="text-color-light">Previous: </strong>
+									<strong class="text-color-light">@lang('cv.previous'): </strong>
 									Senior Front-End Developer
-									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">@lang('cv.view_more')</a>
 								</span>
 								<span class="custom-text-color-1 text-uppercase">
-									<strong class="text-color-light">Education: </strong>
+									<strong class="text-color-light">@lang('cv.education'): </strong>
 									Computer Engineer
-									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">@lang('cv.view_more')</a>
 								</span>
 							</span>
 						</div>
@@ -31,17 +31,17 @@
 				</div>
 				<ul class="social-icons custom-social-icons">
 					<li class="social-icons-linkedin">
-						<a href="https://www.linkedin.com/in/ingdanielsanchezvzla/" target="_blank" title="LinkedIn">
+						<a href="{{$profile->linkedin}}" target="_blank" title="LinkedIn">
 							<i class="fab fa-linkedin-in"></i>
 						</a>
 					</li>
 					<li class="social-icons-github">
-						<a href="https://github.com/ingdanielsanchezve/" target="_blank" title="GitHub">
+						<a href="{{$profile->github}}" target="_blank" title="GitHub">
 							<i class="fab fa-github"></i>
 						</a>
 					</li>					
 					<li class="social-icons-skype">
-						<a href="skype:live:ing.danielsanchez?chat" target="_blank" title="Skype">
+						<a href="skype:{{$profile->skype}}?chat" target="_blank" title="Skype">
 							<i class="fab fa-skype"></i>
 						</a>
 					</li>					

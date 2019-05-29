@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('daniel');
-});
+Route::get('/', 'CvController@index');
+
+Route::get('/{lang}', 'CvController@changeLang')->where(['lang' => 'es|en']);

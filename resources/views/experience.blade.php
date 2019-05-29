@@ -2,18 +2,18 @@
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Experience</h2>
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">{{@lang('cv.experience')}}</h2>
 							<section class="timeline custom-timeline" id="timeline">
 								<div class="timeline-body">
 									<article class="timeline-box right custom-box-shadow-2">
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Apr 2018</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Jul 2018</span>
 												</span>
 												<p class="text-color-light">(4 months)</p>
@@ -25,16 +25,16 @@
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
 												<h4 class="text-color-dark font-weight-semibold">Senior Frontend Developer</h4>
 												<ul>
-													<li> Using AngularJs for the frontend code the UI. </li>
-													<li> Create perfect pixel UI from design. </li>
-													<li> Consume RESTful Api from backend endpoints. </li>
-													<li> Create ajax request to the server to query the data stored in the system database and render in the interface usign backend endpoints. </li>
-													<li> Use differents Jquery libraries to render charts with patients measures data. </li>
-													<li> Design Html templates usign css framework Twitter Bootstrap </li>
-													<li> Usign Atlasian Jiira to manage the user history, comments and development requests. </li>
-													<li> Usign Atlasian Confluence for tickets documentations. </li>
-													<li> Usign Atlasian Bitbucket as store repositorie and Git as control version system for the project code. </li>
-													<li> Usign SCRUM Agile methodology as software development methodology with sprint daily standup, sprint look ahead, sprint review and sprint retrospective meetings. </li>
+													<li>Using AngularJs for the frontend code the UI. </li>
+													<li>Create perfect pixel UI from design. </li>
+													<li>Consume RESTful Api from backend endpoints. </li>
+													<li>Create ajax request to the server to query the data stored in the system database and render in the interface usign backend endpoints. </li>
+													<li>Use differents Jquery libraries to render charts with patients measures data. </li>
+													<li>Design Html templates usign css framework Twitter Bootstrap. </li>
+													<li>Usign Atlasian Jiira to manage the user history, comments and development requests. </li>
+													<li>Usign Atlasian Confluence for tickets documentations. </li>
+													<li>Usign Atlasian Bitbucket as store repositorie and Git as control version system for the project code. </li>
+													<li>Usign SCRUM Agile methodology as software development methodology with sprint daily standup, sprint look ahead, sprint review and sprint retrospective meetings. </li>
 												</ul>
 											</div>
 										</div>
@@ -43,11 +43,11 @@
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Jul 2017</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Mar 2018</span>
 												</span>
 												<p class="text-color-light">(9 months)</p>
@@ -59,17 +59,17 @@
 											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
 												<h4 class="text-color-dark font-weight-semibold">Senior Frontend Developer</h4>
 												<ul>
-													<li> Using Javascript libraries to code the bussines logic for the UI. </li>
-													<li> Render Project Views using underscore templates. </li>
-													<li> Fetching data from database and render in the system views. </li>
-													<li> Use BackboneJS, jQuery libraries and Mustache templates for the application frontend code. </li>
-													<li> Create Ajax request to the server to query the data stored in the system database and render to the interface. </li>
-													<li> Use Javascript to Create Validations to prevent user data entry errors. </li>
-													<li> Test-driven development (TDD) using ChaiJs and SinonJs to create unit tests to verify the developed code work properly. </li>
-													<li> Use TreeJS to display user acquitions types listed in the diferents listbox. </li>
-													<li> Design views wireframe usign css framework Twitter Bootstrap. </li>
-													<li> Usign Jiira to manage the user history, comments and development requests </li>
-													<li> Usign Git as control version system for the project code.  </li>
+													<li>Using Javascript libraries to code the bussines logic for the UI. </li>
+													<li>Render Project Views using underscore templates. </li>
+													<li>Fetching data from database and render in the system views. </li>
+													<li>Use BackboneJS, jQuery libraries and Mustache templates for the application frontend code. </li>
+													<li>Create Ajax request to the server to query the data stored in the system database and render to the interface. </li>
+													<li>Use Javascript to Create Validations to prevent user data entry errors. </li>
+													<li>Test-driven development (TDD) using ChaiJs and SinonJs to create unit tests to verify the developed code work properly. </li>
+													<li>Use TreeJS to display user acquitions types listed in the diferents listbox. </li>
+													<li>Design views wireframe usign css framework Twitter Bootstrap. </li>
+													<li>Usign Jiira to manage the user history, comments and development requests </li>
+													<li>Usign Git as control version system for the project code.  </li>
 												</ul>
 											</div>
 										</div>
@@ -78,11 +78,11 @@
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Oct 2015</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Sep 2017</span>
 												</span>
 												<p class="text-color-light">(2 Years)</p>
@@ -115,11 +115,11 @@
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Sep 2013</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Nov 2015</span>
 												</span>
 												<p class="text-color-light">(2 Years 3 Months)</p>
@@ -147,11 +147,11 @@
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Jan 2012</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Jul 2014</span>
 												</span>
 												<p class="text-color-light">(2 Years 7 Months)</p>
@@ -176,11 +176,11 @@
 										<div class="row">
 											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
 												<span class="from text-color-light text-uppercase">
-													From
+													{{@lang('cv.from')}}
 													<span class="font-weight-semibold">Aug 2008</span>
 												</span>
 												<span class="to text-color-light text-uppercase">
-													To
+													{{@lang('cv.to')}}
 													<span class="font-weight-semibold">Jan 2012</span>
 												</span>
 												<p class="text-color-light">(3 Years 6 Months)</p>

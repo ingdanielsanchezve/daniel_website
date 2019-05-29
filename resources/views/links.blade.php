@@ -5,7 +5,7 @@
 							<a data-hash href="#say-hello" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">
 									<i class="icon-earphones-alt icons text-color-primary"></i>
-									Contact Information	
+									@lang('cv.contact_info')
 								</span>
 							</a>
 						</div>
@@ -13,16 +13,30 @@
 							<a data-hash href="#say-hello" class="text-decoration-none">
 								<span class="custom-nav-button custom-divisors text-color-dark">
 									<i class="icon-envelope-open icons text-color-primary"></i>
-									Send Message	
+									@lang('cv.contact_me')
 								</span>
 							</a>
 						</div>
-						<div class="col-lg-3 text-center p-0">
-							<a href="cv/Daniel_Sanchez_Computer_Engineer.pdf" target="_blank" class="text-decoration-none">
+						<div class="col-lg-2 text-center p-0">
+							<a href="{{profile.cv_url}}" target="_blank" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">
 									<i class="icon-cloud-download icons text-color-primary"></i>
-									Download Resume	
+									@lang('cv.download_cv')
 								</span>
+							</a>
+						</div>
+						<div class="col-lg-1 text-center p-0">
+							<a href="/es" class="text-decoration-none">
+								<span class="custom-nav-button text-color-dark">
+									<span class="flag-icon flag-icon-ve"></span> @lang('cv.spa')
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-1 text-center p-0">
+							<a href="/en" class="text-decoration-none">
+								<span class="custom-nav-button text-color-dark">							
+									<span class="flag-icon flag-icon-us"></span> @lang('cv.eng')
+								</span>									
 							</a>
 						</div>
 					</div>
