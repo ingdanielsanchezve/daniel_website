@@ -11,6 +11,7 @@ use \App\Certification;
 use \App\Recommendations;
 use \App\Languages;
 use \App\Portfolio;
+use \App\Skills;
 
 class CvController extends Controller
 {
@@ -25,6 +26,7 @@ class CvController extends Controller
                 'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
                 'languages' => Languages::where('lang', App::getLocale())->get(),
                 'portfolio' => Portfolio::get(),
+                'skills' => Skills::get()
              ]
         );
 
@@ -43,6 +45,7 @@ class CvController extends Controller
                 'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
                 'languages' => Languages::where('lang', App::getLocale())->get(),
                 'portfolio' => Portfolio::get(),
+                'skills' => Skills::get()
              ]
         );
 

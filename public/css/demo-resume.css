@@ -471,7 +471,7 @@ section.section {
 .custom-list-style-1 li span {
 	text-transform: initial;
 	font-weight: 550;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 .custom-list-style-1 li span:nth-child(1) {
 	display: inline-block;

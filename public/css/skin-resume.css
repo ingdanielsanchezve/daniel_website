@@ -574,6 +574,7 @@ html .nav-pills-light > li.active > a:focus {
 
 html .badge-primary {
 	background-color: #4dabf7;
+	font-size: 12px;
 }
 
 html .badge-secondary {

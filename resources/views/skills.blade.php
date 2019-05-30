@@ -5,64 +5,17 @@
 							<div class="row">
 								<div class="col-lg-6">
 									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">@lang('cv.skills_language')</h2>
-									<div class="progress-bars custom-progress-bars">
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Start Up</span>
-										</div>
-
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="60%"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Innovation</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="80%" data-appear-animation-delay="300"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Products</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="70%" data-appear-animation-delay="600"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>CSS</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="900"></div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="progress-bars custom-progress-bars custom-md-margin-top-1">
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Javascript</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="60%"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Business</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="80%" data-appear-animation-delay="300"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>E-commerce</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="70%" data-appear-animation-delay="600"></div>
-										</div>
-										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
-											<span>Creative</span>
-										</div>
-										<div class="progress mb-2">
-											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="900"></div>
-										</div>
-									</div>
 								</div>
 							</div>
+							<div class="row">
+								@foreach($skills as $skill)
+								<div class="col-lg-4">
+									<i class="fas fa-caret-right"></i> <a href="#" class="badge badge-primary">{{$skill->name}}</a>
+								</div>
+								@endforeach
+							</div>
 						</div>
+
 						<div class="col-md-6 col-lg-4">
 							<div class="row">
 								<div class="col">
