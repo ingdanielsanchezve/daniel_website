@@ -11,6 +11,7 @@ class RecommendationsSeeder extends Seeder
      */
     public function run()
     {
+
         DB::table('recommendations')->insert([
             'text' => 'Daniel was a very important support for SoyEmpleo, a digital platform for recruitment of personnel, led a team of eight people where there were FrontEnd and BackEnd developers and their role was to direct both teams in order to comply with the times established by the Product Owner. He was always very committed and professional in all the time we worked together which was a little over two years. I recommend him 100%.',
             'made_by' => 'Juan Felipe Cucalon',
@@ -18,6 +19,16 @@ class RecommendationsSeeder extends Seeder
             'picture' => 'img/references/juan_felipe_cucalon.jpeg',
             'linkedin_profile' => 'https://www.linkedin.com/in/juan-felipe-cucalon/',
             'company' => 'Soy Empleo SAS',
+            'lang' => 'en'
+        ]);
+
+        DB::table('recommendations')->insert([
+            'text' => 'Having Daniel in a technology project is a guarantee of innovation and assertive solutions, their willingness and identification with the goal strengthens any development.',
+            'made_by' => 'Miguel Farrell',
+            'title' => 'Co-Founder & CEO',
+            'picture' => 'img/references/miguel_farrell.jpeg',
+            'linkedin_profile' => 'https://www.linkedin.com/in/miguel-farrell-jimenez/',
+            'company' => 'Octopus',
             'lang' => 'en'
         ]);
         
@@ -48,6 +59,16 @@ class RecommendationsSeeder extends Seeder
             'picture' => 'img/references/juan_felipe_cucalon.jpeg',            
             'linkedin_profile' => 'https://www.linkedin.com/in/juan-felipe-cucalon/',
             'company' => 'Soy Empleo SAS',
+            'lang' => 'es'
+        ]);
+
+        DB::table('recommendations')->insert([
+            'text' => 'Contar con Daniel en un proyecto de tecnología es una garantía de innovación y soluciones asertivas, su disposición y e identificación con la meta fortalece cualquier desarrollo.',
+            'made_by' => 'Miguel Farrell',
+            'title' => 'Co-Founder & CEO',
+            'picture' => 'img/references/miguel_farrell.jpeg',
+            'linkedin_profile' => 'https://www.linkedin.com/in/miguel-farrell-jimenez/',
+            'company' => 'Octopus',
             'lang' => 'es'
         ]);
 
