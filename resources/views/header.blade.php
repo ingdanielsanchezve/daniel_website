@@ -53,7 +53,7 @@
 													<li>
 														<a data-hash href="#say-hello" class="nav-link text-color-light bg-color-primary">
 															<i class="icon-envelope-open icons"></i>
-															<span class="custom-tooltip">@lang('cv.say_hello')</span>
+															<span class="custom-tooltip">@lang('cv.contact_me')</span>
 														</a>
 													</li>
 												</ul>

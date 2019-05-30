@@ -15,7 +15,7 @@
 					<div class="header-row">
 						<div class="header-column">
 							<div class="header-row">
-								<p class="mb-0"><strong>@lang('cv.say_hello')</strong> (123) 456-789</span><span class="d-none d-sm-inline-block pl-1"> | <a href="mailto:ingdanielsanchezve@gmail.com">ingdanielsanchezve@gmail.com</a></span></p>
+								<p class="mb-0"><strong>@lang('cv.contact_me')</strong> (+58) 412-766-7976</span><span class="d-none d-sm-inline-block pl-1"> | <a href="mailto:ingdanielsanchezve@gmail.com">ingdanielsanchezve@gmail.com</a></span></p>
 							</div>
 						</div>
 						<div class="header-column justify-content-end">
