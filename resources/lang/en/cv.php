@@ -44,6 +44,7 @@ return [
     'subject_required' => 'Please enter your subject.',
     'message_required' => 'Please enter your message.',
     'submit' => 'Submit',
+    'rights' => 'Copyright © 2019 Daniel Sánchez, all rights reserved.',    
     'calm' => 'Calm...',
     'calm_message' => 'This is NOT what you should have seen',
     'calm_explain' => 'However, do not worry. If you are watching this is because I am this making a maintenance working on my website, try to come back a little later or contact me by any of the means I have left here.'
