@@ -15,8 +15,9 @@ class CreateRecommendationsTable extends Migration
     {
         Schema::create('recommendations', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('text');
+            $table->longtext('text');
             $table->string('made_by');
+            $table->string('picture');
             $table->string('title');
             $table->string('linkedin_profile');
             $table->string('company');

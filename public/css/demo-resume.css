@@ -810,6 +810,9 @@ section.custom-timeline .timeline-box .experience-info .company > span {
 .custom-testimonial-style-1 .testimonial-author span {
 	font-size: 1em;
 }
+.custom-rounded-image{
+	border-radius:100% !important
+}
 
 /*
 * Blog
