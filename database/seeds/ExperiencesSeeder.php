@@ -135,14 +135,14 @@ class ExperiencesSeeder extends Seeder
         ]);
 
         DB::table('experiences')->insert([
-            'title' => 'analista de Procesos Tecnológicos II',
+            'title' => 'Analista de Procesos Tecnológicos II',
             'company' => 'Alcaldía de Valencia',
             'location' => 'Valencia, Venezuela',
             'observation' => '',
             'duration_from' => 'Ago 2008',
             'duration_to' => 'Ene 2012',
             'duration_time' => '3 AÑOS 6 MESES',
-            'lang' => 'en'
+            'lang' => 'es'
         ]);
         
     }

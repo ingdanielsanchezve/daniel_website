@@ -5,27 +5,27 @@
 							<div class="row justify-content-end m-0">
 								<div class="col-half-section col-half-section-right mr-3">
 									
-									<h2 class="text-color-light text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<h2 class="text-color-light text-uppercase font-weight-extra-bold">@lang('cv.say_hello')</h2>
 									<form id="contactForm" class="contact-form custom-form-style" action="php/contact-form.php" method="post">
 										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-											<strong>Success!</strong> Your message has been sent to us.
+											<strong>@lang('cv.success')</strong> @lang('cv.success_msg')
 										</div>
 										<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-											<strong>Error!</strong> There was an error sending your message.
+											<strong>@lang('cv.error')</strong> @lang('cv.error_msg')
 											<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
 										</div>
 										
 										<div class="form-content">
 											<div class="form-control-custom">
-												<input type="text" class="form-control" name="name" placeholder="Your Name *" data-msg-required="This field is required." id="name" required="" />
+												<input type="text" class="form-control" name="name" placeholder="@lang('cv.your_name') *" data-msg-required="@lang('cv.name_required')" id="name" required="" />
 											</div>
 											<div class="form-control-custom">
-												<input type="text" class="form-control" name="subject" placeholder="Subject *" data-msg-required="This field is required." id="subject" required="" />
+												<input type="text" class="form-control" name="subject" placeholder="@lang('cv.subject') *" data-msg-required="@lang('cv.subject_required')" id="subject" required="" />
 											</div>
 											<div class="form-control-custom">
-												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" placeholder="Message*" id="message" required="" aria-required="true"></textarea>
+												<textarea maxlength="5000" name="message" id="message" placeholder="@lang('cv.message') *" data-msg-required="@lang('cv.message_required')" rows="10" class="form-control" required="" aria-required="true"></textarea>
 											</div>
-											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
+											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="@lang('cv.submit')" />
 										</div>
 									</form>
 
@@ -43,7 +43,7 @@
 												<i class="icon-envelope icons text-color-light"></i>
 											</span>
 											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Email</span>
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">@lang('cv.email')</span>
 												<strong class="font-weight-light text-color-light custom-opacity-effect-1">ingdanielsanchezve@gmail.com</strong>
 											</span>
 										</span>
@@ -54,7 +54,7 @@
 												<i class="icon-phone icons text-color-light"></i>
 											</span>
 											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Phone</span>
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">@lang('cv.phone')</span>
 												<strong class="font-weight-light text-color-light custom-opacity-effect-1">(+58) 412 766-7976</strong>
 											</span>
 										</span>
@@ -65,7 +65,7 @@
 												<i class="icon-social-skype icons text-color-light"></i>
 											</span>
 											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Skype</span>
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">@lang('cv.skype')</span>
 												<strong class="font-weight-light text-color-light custom-opacity-effect-1">live:ing.danielsanchez</strong>
 											</span>
 										</span>

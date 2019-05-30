@@ -13,252 +13,252 @@ class DetailExperiencesSeeder extends Seeder
     {
         DB::table('detail_experiences')->insert([
             'description' => 'Using AngularJs for the frontend code the UI.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Create perfect pixel UI from design.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Consume RESTful Api from backend endpoints.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Create ajax request to the server to query the data stored in the system database and render in the interface usign backend endpoints.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Use differents Jquery libraries to render charts with patients measures data.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Design Html templates usign css framework Twitter Bootstrap.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign Atlasian Jiira to manage the user history, comments and development requests.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign Atlasian Confluence for tickets documentations.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign Atlasian Bitbucket as store repositorie and Git as control version system for the project code.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign SCRUM Agile methodology as software development methodology with sprint daily standup, sprint look ahead, sprint review and sprint retrospective meetings.',
-            'experience_id' => 1
+            'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Using Javascript libraries to code the bussines logic for the UI.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Render Project Views using underscore templates.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Fetching data from database and render in the system views.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Use BackboneJS, jQuery libraries and Mustache templates for the application frontend code.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Create Ajax request to the server to query the data stored in the system database and render to the interface.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Use Javascript to Create Validations to prevent user data entry errors.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Test-driven development (TDD) using ChaiJs and SinonJs to create unit tests to verify the developed code work properly.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Use TreeJS to display user acquitions types listed in the diferents listbox.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Design views templates usign css framework Twitter Bootstrap.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign Jiira to manage the user history, comments and development requests',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Usign Git as control version system for the project code.',
-            'experience_id' => 2
+            'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Create Backlogs, User Histories and developments tasks accord to SCRUM methodoly.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Manage and Lead Work of frontend, backend and testing teams.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementing and software setup in Linux servers. (Apache, MySQL, PHP, NodeJs, NPM, Mongo, Supervisor, Git, Beanstalk).',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementing SEO strategies in the company web sites.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'MongoDB database (Install, Update and Database Administration, Database Management, Index Creation, Backups, Restores, Users Authentication, Database Modeling, Storage Engine Configuration).',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementing colaborative software development tools (Git, Trello, Google Drive, Slack, Zoom).',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Creating and Modeling Database Collections using MongoDb.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Linux servers Administration in Amazon Web Service EC2 instances (AWS)',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Backend Software Development using Laravel Framework 5.4.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Frontend Software Development usign AngularJs and VueJs.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Test-driven development (TDD) using PHPUnit to create unit tests to verify the developed code work properly.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'UI design using HTML5, CSS3, Bootstrap, Fontawesome, Glyphicons.',
-            'experience_id' => 3
+            'experiences_id' => 3
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development and implementing of backend scripts using PHP, Laravel, NodeJs.',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Integration with Facebook APIs, Twitter APIs, Instagram APIs and Pinterest APIs.',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'MySQL ( Database Administration, Database Management, Index Creation, Backups, Restores, Users Management, Database Modeling, Functions and store procedures development).',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'MongoDB (Install, Update and Database Administration, Database Management, Index Creation, Backups, Restores, Users Authentication, Database Modeling, Storage Engine Configuration).',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementing and configuration of software in Linux servers. (Apache, MySQL, PHP, NodeJs, NPM, Mongo, Supervisor, Git, Beanstalk).',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementing SEO strategies for the bussiness web sites.',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development and implementing of frontend scripts using Jquery, Javascript, Angular, Blade, Mustache, Grunt.',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'UI Development with HTML5, CSS3, Bootstrap, Fontawesome, Glyphicons.',
-            'experience_id' => 4
+            'experiences_id' => 4
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development and maintenance of the Applications and Websites of the Valencia City Hall using LAMP stack technologies.',
-            'experience_id' => 5
+            'experiences_id' => 5
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Use jQuery to validate, create ajax requests and and add animations for the websites.',
-            'experience_id' => 5
+            'experiences_id' => 5
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development and maintenance of the tax collection system of the Valencia City Hall using Oracle de Developer Suite (Forms y Reports).',
-            'experience_id' => 5
+            'experiences_id' => 5
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development of SQL scripts, Database Modeling, Tables, Views, Functions and Procedures in Oracle using TOAD for Oracle.',
-            'experience_id' => 5
+            'experiences_id' => 5
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Development of modules and maintenance of the system of civilian register of the Valencia City Hall using Visual Basic 6, Crystal Reports, MySQL.',
-            'experience_id' => 5
+            'experiences_id' => 5
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Applications development using Oracle de Developer Suite (Forms y Reports).',
-            'experience_id' => 6
+            'experiences_id' => 6
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Web applications development using LAMP stack.',
-            'experience_id' => 6
+            'experiences_id' => 6
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Development with Visual Basic 6.  ',
-            'experience_id' => 6
+            'description' => 'Aplications Development using Visual Basic 6, MySql and Crystal Reports using Server Client Model.',
+            'experiences_id' => 6
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'MySQL Databases Administration. ',
-            'experience_id' => 6
+            'experiences_id' => 6
         ]);
         
         /////////////////////////////
@@ -269,207 +269,250 @@ class DetailExperiencesSeeder extends Seeder
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de AngularJs para la lógica de negocios a nivel de interfáz de usuarios.',
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Crear pantallas con ajuste perfecto por pixel a nivel de interfáz de usuario.',
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Consumir recursos obtenidos desde la Api RESTful desde los endpoints del Backend.',
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Crear solicitudes ajax al servidor para consultar los datos almacenados en la base de datos del sistema y renderizarlos en las interfáz de usuario desde los endpoints del Backend.',
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de librerias Javascript y Jquery para renderizar gráficos con las mediciones de los valores de los datos de los pacientes.',                            
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Diseñar plantillas Html utilizando el Framework CSS Bootstrap.',            
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Atlasian Jiira para gestionar las historias de usuarios, comentarios y solicitudes de desarrollo.',                             
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Atlasian Confluence para la documentación de los tickets.',
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Atlasian Bitbucket como almacen de los repositorios y Git como sistema de control de versiones para el código del proyecto.',                             
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de la metodología ágil SCRUM como metodología de desarrollo de software con reuniones diarias, para ver los próximos desarrollos, de revisión y retrospectivas del sprint.',                            
-            'experience_id' => 7
+            'experiences_id' => 7
         ]);        
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de librerías Javascript para programar la lógica de negocios a nivel de interfáz de usuarios.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Rederizar las vistas del proyecto utilizando plnatillas con Underscore.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Obtener datos desde la base de datos y renderizarlos en las vistas del sistema.',                            
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de BackboneJS, librerias de jQuery y plantillas de Mustache para el código frontend de la aplicación.',                             
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Crear solicitudes ajax al servidor para consultar los datos almacenados en la base de datos del sistema y renderizarlos en las interfáz de usuario.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Javascript para crear validaciones y prevenir la entrada de datos errornes por parte del usuario.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo basado en pruebas (TDD) utilizando ChaiJs y SinonJs para crear tests unitarios para verificar que el código desarrollado trabaje correctamente.',                             
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de TreeJs para mostrar los diferentes tipos de adquisiciones listados en los diferentes listbox de la aplicación.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Diseñar plantillas de vistas utilizando el Framework CSS Bootstrap.',                             
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Atlasian Jiira para gestionar las historias de usuarios, comentarios y solicitudes de desarrollo.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Utilización de Git como sistema de control de versiones para el código del proyecto.',
-            'experience_id' => 8
+            'experiences_id' => 8
         ]);
 
 
         DB::table('detail_experiences')->insert([
             'description' => 'Gestionar y líderar los eqipos de desarrollo frontend, backend y testing.',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementar y Configurar Software en Servidores Linux. (Apache, MySQL, PHP, NodeJs, NPM, Mongo, Supervisor, Git, Beanstalk).',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Implementar estrategías de SEO en los sitios web de la empresa',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'MongoDB (Instalación, Actualización, Administración y Gestión de Base de Datos, , Creación de indices, respaldos, restauraciones, gestión y autenticación de usuarios, modelado de base de datos, configuración de motor de almacenamiento).',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Uso e Implementación de Herramientas de desarrollo colaborativo (Git, Trello, Google Drive, Slack, Zoom).',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Creación y modelado de colecciones de base de datos usando MongoDb.',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Administración de Servidores Linux en instancias EC2 de Amazon Web Service (AWS)',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo de Software Backend usando Laravel Framework 5.4',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo de Software Frontend usando AngularJs y VueJs.',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo basado en pruebas (TDD) utilizando PHPUnit para crear tests unitarios para verificar que el código desarrollado trabaje correctamente.',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo de interfaces de usuario usando HTML5, CSS3, Bootstrap, Fontawesome, Glyphicons.',
-            'experience_id' => 9
+            'experiences_id' => 9
         ]);            
 
 
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo e implementación de software backend utilizando el lenguaje PHP con Laravel Framework, NodeJs. ',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'Integración con APIs de desarrolladores de Facebook, Twitter, Instagram, Pinterest.',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'MySQL (Administración y gestión de bases de datos, Creación de indices, respaldos, restauraciones, gestión de usuarios, modelado de bases de datos, creación de tablas, vistas, desarrollo de funciones y procedimientos almacenados).',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'MongoDB (Instalación, Actualización, Administración y Gestión de Base de Datos, , Creación de indices, respaldos, restauraciones, gestión y autenticación de usuarios, modelado de base de datos, configuración de motor de almacenamiento).',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
-            'description' => 'Instalación y configuración de software en servidores Linux. (Apache Server, MySQL, PHP, NodeJs, NPM, Mongo, Supervisor, Git, Beanstalk). ',
-            'experience_id' => 10,
+            'description' => 'Instalación y configuración de software en servidores Linux. (Apache Server, MySQL, PHP, NodeJs, NPM, Mongo, Supervisor, Git, Beanstalk).',
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'Implementación de estrategias SEO en los sitios web de la empresa.',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo e implementación de código frontend utilizando Jquery, Javascript, Angular, Blade, Mustache, Grunt.',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
+
         DB::table('detail_experiences')->insert([
             'description' => 'Desarrollo de interfaces de usuario usando HTML5, CSS3, Bootstrap, Fontawesome, Glyphicons.',
-            'experience_id' => 10,
+            'experiences_id' => 10,
         ]);
-        
 
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo y mantenimiento de las aplicaciones y sitios web de la Alcaldía de Valencia utilizando tecnologías LAMP.',
+            'experiences_id' => 11
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Utilización de Jquery para hacer validaciones, solicitudes AJAX y animaciones a los sitios web.',
+            'experiences_id' => 11
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo y Mantenimiento del Sistema Municipal de Recaudación Tributario de la Alcaldía de Valencia utilizando Oracle Developer Suite (Forms y Reports).',
+            'experiences_id' => 11
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de Scripts SQL, modelado de Base de Datos, Tablas, Vistas, Funciones y Procedimientos Almacenados utilizando TOAD para Oracle.',
+            'experiences_id' => 11
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de módulos y mantenimiento del Sistema de Registro Civil de la Alcaldía de Valencia utilizando Visual Basic 6, Crystal Reports, MySQL.',
+            'experiences_id' => 11
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de Aplicaciones utilizando Oracle Developer Suite (Forms y Reports).',
+            'experiences_id' => 12
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de aplicaciones web utilizando tecnologías LAMP.',
+            'experiences_id' => 12
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de Aplicaciones utilizando Visual Basic 6, MySql y Crystal Reports usando el modelo Servidor Cliente.',
+            'experiences_id' => 12
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Administración de Bases de Datos MySQL.',
+            'experiences_id' => 12
+        ]);
 
 
 

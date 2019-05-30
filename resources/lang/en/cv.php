@@ -14,6 +14,7 @@ return [
     'recommendations'  => 'Recommendations',
     'skills'  => 'Skills',
     'portfolio'  => 'Portfolio',
+    'websites' => 'Websites',
     'say_hello'  => 'Say Hello',
     'personal_details' => 'Personal Details',
     'birthday' => 'Birthday',
@@ -24,7 +25,24 @@ return [
     'email' => 'Email',
     'spa' => 'ESP',
     'eng' => 'ENG',
+    'spanish' => 'Español',
+    'english' => 'English',
     'from' => 'FROM',
-    'to' => 'TO'
+    'to' => 'TO',
+    'at' => 'at',
+    'skills_language'  => 'Skills & Language',
+    'language'  => 'Languages',
+    'say_hello' => 'Say Hello',
+    'your_name' => 'Your Name',
+    'subject' => 'Subject',
+    'message' => 'Message',
+    'success' => 'Success!',
+    'success_msg' => 'Your message has been sent.',
+    'error' => 'Error!',
+    'error_msg' => 'There was an error sending your message.',
+    'name_required' => 'Please enter your name.',
+    'subject_required' => 'Please enter your subject.',
+    'message_required' => 'Please enter your message.',
+    'submit' => 'Submit'
 
 ];

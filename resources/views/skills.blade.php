@@ -4,7 +4,7 @@
 						<div class="col-md-6 col-lg-8 mb-4 mb-md-0">
 							<div class="row">
 								<div class="col-lg-6">
-									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Skills & Language</h2>
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">@lang('cv.skills_language')</h2>
 									<div class="progress-bars custom-progress-bars">
 										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
 											<span>Start Up</span>
@@ -67,20 +67,14 @@
 							<div class="row">
 								<div class="col">
 									<div class="custom-box-details bg-color-light custom-box-shadow-1">
-										<h4 class="text-color-dark">Languages</h4>
+										<h4 class="text-color-dark">@lang('cv.language')</h4>
 										<ul class="custom-list-style-1 p-0">
+											@foreach($languages as $lang)
 											<li>
-												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-es mr-1" alt="Spanish">Spanish:</span>
-												<span class="custom-text-color-2">Native</span>
+												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-{{$lang->flag}} mr-1" alt="{{$lang->name}}">{{$lang->name}}:</span>
+												<span class="custom-text-color-2">{{$lang->level}}</span>
 											</li>											
-											<li>
-												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-us mr-1" alt="English">English:</span>
-												<span class="custom-text-color-2">Advanced</span>
-											</li>											
-											<li>
-												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-fr mr-1" alt="Française">French:</span>
-												<span class="custom-text-color-2">Basic</span>
-											</li>
+											@endforeach
 										</ul>
 									</div>
 								</div>

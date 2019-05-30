@@ -26,7 +26,6 @@
 
 		<!-- Theme Custom CSS -->
 		<link type="text/css" media="screen" rel="stylesheet" href="css/custom.css">
-		<link type="text/css" media="screen" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css">
 		<link type="text/css" media="screen,print" rel="stylesheet" href="https://www.testdome.com/content/source/stylesheets/embed.css">
 
 		<!-- Head Libs -->

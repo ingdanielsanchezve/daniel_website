@@ -18,24 +18,24 @@
 							</a>
 						</div>
 						<div class="col-lg-2 text-center p-0">
-							<a href="{{profile.cv_url}}" target="_blank" class="text-decoration-none">
+							<a href="{{$profile->cv_url}}" target="_blank" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">
 									<i class="icon-cloud-download icons text-color-primary"></i>
 									@lang('cv.download_cv')
 								</span>
 							</a>
 						</div>
-						<div class="col-lg-1 text-center p-0">
+						<div class="col-lg-1 col-sm-6 text-center p-0">
 							<a href="/es" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">
-									<span class="flag-icon flag-icon-ve"></span> @lang('cv.spa')
+									<img src="img/blank.gif" class="flag flag-ve mr-1" alt="@lang('cv.spanish')"> @lang('cv.spa')
 								</span>
 							</a>
 						</div>
-						<div class="col-lg-1 text-center p-0">
+						<div class="col-lg-1 col-sm-6 text-center p-0">
 							<a href="/en" class="text-decoration-none">
 								<span class="custom-nav-button text-color-dark">							
-									<span class="flag-icon flag-icon-us"></span> @lang('cv.eng')
+									<img src="img/blank.gif" class="flag flag-us mr-1" alt="@lang('cv.english')"> @lang('cv.eng')
 								</span>									
 							</a>
 						</div>

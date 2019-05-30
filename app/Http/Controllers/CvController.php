@@ -8,6 +8,9 @@ use \App\Profile;
 use \App\Education;
 use \App\Experiences;
 use \App\Certification;
+use \App\Recommendations;
+use \App\Languages;
+use \App\Portfolio;
 
 class CvController extends Controller
 {
@@ -17,14 +20,17 @@ class CvController extends Controller
             [
                 'profile'   => Profile::where('lang', App::getLocale())->first(),
                 'education' => Education::where('lang', App::getLocale())->get(),
+                'recommendations' => Recommendations::where('lang', App::getLocale())->get(),
                 'certs' => Certification::get(),
-                'experiences' => Experiences::where('lang', App::getLocale())->get(),
+                'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
+                'languages' => Languages::where('lang', App::getLocale())->get(),
+                'portfolio' => Portfolio::get(),
              ]
         );
 
     }
 
-    public function changeLang($lang){
+    public function changeLanguage($lang){
 
         App::setLocale($lang);
 
@@ -32,8 +38,11 @@ class CvController extends Controller
             [
                 'profile'   => Profile::where('lang', App::getLocale())->first(),
                 'education' => Education::where('lang', App::getLocale())->get(),
+                'recommendations' => Recommendations::where('lang', App::getLocale())->get(),
                 'certs' => Certification::get(),
-                'experiences' => Experiences::where('lang', App::getLocale())->get(),
+                'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
+                'languages' => Languages::where('lang', App::getLocale())->get(),
+                'portfolio' => Portfolio::get(),
              ]
         );
 

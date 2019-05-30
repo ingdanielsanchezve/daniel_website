@@ -16,5 +16,8 @@ class DatabaseSeeder extends Seeder
         $this->call(DetailExperiencesSeeder::class);
         $this->call(EducationSeeder::class);
         $this->call(CertificationSeeder::class);
+        $this->call(RecommendationsSeeder::class);
+        $this->call(LanguagesSeeder::class);
+        $this->call(PortfolioSeeder::class);
     }
 }

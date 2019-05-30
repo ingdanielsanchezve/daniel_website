@@ -13,4 +13,4 @@
 
 Route::get('/', 'CvController@index');
 
-Route::get('/{lang}', 'CvController@changeLang')->where(['lang' => 'es|en']);
+Route::get('/{lang}', 'CvController@changeLanguage')->where(['lang' => 'es|en']);

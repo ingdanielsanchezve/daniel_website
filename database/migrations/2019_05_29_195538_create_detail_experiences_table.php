@@ -16,8 +16,12 @@ class CreateDetailExperiencesTable extends Migration
         Schema::create('detail_experiences', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('description');
-            $table->foreign('experience_id')->references('id')->on('experiences');
+            $table->bigInteger('experiences_id')->unsigned();
             $table->timestamps();
+        });
+
+        Schema::table('detail_experiences', function (Blueprint $table) {
+            $table->foreign('experiences_id')->references('id')->on('experiences');
         });
     }
 
