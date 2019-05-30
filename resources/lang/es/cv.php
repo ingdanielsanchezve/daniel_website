@@ -45,7 +45,7 @@ return [
     'submit' => 'Enviar',
     'calm' => 'Calma...',
     'calm_message' => 'Esto NO es lo que deberías de haber visto',
-    'calm_explain' => 'Sin embargo, no te preocupes. si estas viendo esto es porque estoy trabajando en mi sitio web, intenta volver un poco más tarde o contáctame por alguno de los medios que he dejado por acá.'
+    'calm_explain' => 'Sin embargo, no te preocupes. si estas viendo esto es porque estoy haciendo mantenimiento de mi sitio web, intenta volver un poco más tarde o contáctame por alguno de los medios que he dejado por acá.'
 
 
 ];

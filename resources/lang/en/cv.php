@@ -46,6 +46,6 @@ return [
     'submit' => 'Submit',
     'calm' => 'Calm...',
     'calm_message' => 'This is NOT what you should have seen',
-    'calm_explain' => 'However, do not worry. If you are watching this is because I am working on my website, try to come back a little later or contact me by any of the means I have left here.'
+    'calm_explain' => 'However, do not worry. If you are watching this is because I am this making a maintenance working on my website, try to come back a little later or contact me by any of the means I have left here.'
 
 ];
