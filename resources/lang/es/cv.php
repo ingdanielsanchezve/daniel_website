@@ -42,6 +42,10 @@ return [
     'name_required' => 'Por favor ingresa tu nombre.',
     'subject_required' => 'Por favor ingresa tu asunto.',
     'message_required' => 'Por favor ingresa tu mensaje.',
-    'submit' => 'Enviar'    
+    'submit' => 'Enviar',
+    'calm' => 'Calma...',
+    'calm_message' => 'Esto NO es lo que deberías de haber visto',
+    'calm_explain' => 'Sin embargo, no te preocupes. si estas viendo esto es porque estoy trabajando en mi sitio web, intenta volver un poco más tarde o contáctame por alguno de los medios que he dejado por acá.'
+
 
 ];

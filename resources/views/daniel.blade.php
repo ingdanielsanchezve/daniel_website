@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Kayra MakeUp International')
+@section('title', 'Daniel Sánchez - Full Stack Web Developer - PHP / Javascript / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker')
 @section('content')
 
 @include('about-me')

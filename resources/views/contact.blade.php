@@ -34,7 +34,7 @@
 						</section>
 					</div>
 					<div class="col-lg-6 p-0">
-						<section class="section section-no-border h-100 m-0" style="background: url(img/demos/resume/about-me/about-me-bg-1.jpg); background-size: cover;">
+						<section class="section section-no-border h-100 m-0" style="background: url(img/resume/about-me/about-me-bg-1.jpg); background-size: cover;">
 							<div class="row m-0">
 								<div class="col-half-section col-half-section-left ml-3">
 									<a href="mailto:ingdanielsanchezve@gmail.com" class="text-decoration-none">

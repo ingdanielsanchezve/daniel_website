@@ -9,7 +9,7 @@
 									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
 										<div class="thumb-info-wrapper">
 											<a href="#">
-												<img src="img/demos/resume/blog/blog-1.jpg" alt class="img-fluid" />
+												<img src="img/resume/blog/blog-1.jpg" alt class="img-fluid" />
 											</a>
 										</div>
 										<div class="thumb-info-caption">
@@ -48,7 +48,7 @@
 									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
 										<div class="thumb-info-wrapper">
 											<a href="#">
-												<img src="img/demos/resume/blog/blog-2.jpg" alt class="img-fluid" />
+												<img src="img/resume/blog/blog-2.jpg" alt class="img-fluid" />
 											</a>
 										</div>
 										<div class="thumb-info-caption">

@@ -43,6 +43,9 @@ return [
     'name_required' => 'Please enter your name.',
     'subject_required' => 'Please enter your subject.',
     'message_required' => 'Please enter your message.',
-    'submit' => 'Submit'
+    'submit' => 'Submit',
+    'calm' => 'Calm...',
+    'calm_message' => 'This is NOT what you should have seen',
+    'calm_explain' => 'However, do not worry. If you are watching this is because I am working on my website, try to come back a little later or contact me by any of the means I have left here.'
 
 ];

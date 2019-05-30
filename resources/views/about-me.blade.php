@@ -1,9 +1,9 @@
-			<section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/demos/resume/about-me/about-me-bg-1.jpg">
+			<section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/resume/about-me/about-me-bg-1.jpg">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 custom-sm-margin-bottom-1">
 							<a href="/">
-								<img src="img/demos/resume/about-me/me.jpg" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
+								<img src="{{$profile->picture}}" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
 							</a>
 						</div>
 						<div class="col-lg-6 col-xl-5">
@@ -25,7 +25,7 @@
 							</span>
 						</div>
 						<div class="col-lg-2 col-xl-3 d-none d-lg-block">
-							<img src="img/demos/resume/about-me/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
+							<img src="img/resume/about-me/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
 						</div>
 					</div>
 				</div>

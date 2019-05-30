@@ -13,6 +13,7 @@ class ProfileSeeder extends Seeder
     {
         DB::table('profiles')->insert([
             'name' => 'Daniel Sánchez',
+            'picture' => 'img/resume/about-me/me.jpg',
             'title' => 'Desarrollador Full Stack - Ingeniero en Informática',
             'location' => 'Valencia, Venezuela',
             'subtitle' => 'SERVICIOS INFORMÁTICOS',
@@ -35,6 +36,7 @@ class ProfileSeeder extends Seeder
         
         DB::table('profiles')->insert([
             'name' => 'Daniel Sánchez',
+            'picture' => 'img/resume/about-me/me.jpg',            
             'title' => 'Full Stack Web Developer - Computer Engineer',
             'location' => 'Valencia, Venezuela',
             'subtitle' => 'INFORMATION TECHNOLOGY & SERVICES',
