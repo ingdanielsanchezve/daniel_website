@@ -1,42 +1,10 @@
 			<section id="say-hello" class="container-fluid">
 				<div class="row">
-					<div class="col-lg-6 p-0">
-						<section class="section section-no-border bg-color-primary h-100 m-0">
-							<div class="row justify-content-end m-0">
-								<div class="col-half-section col-half-section-right mr-3">
-									
-									<h2 class="text-color-light text-uppercase font-weight-extra-bold">@lang('cv.contact_me')</h2>
-									<form id="contactForm" class="contact-form custom-form-style" action="php/contact-form.php" method="post">
-										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-											<strong>@lang('cv.success')</strong> @lang('cv.success_msg')
-										</div>
-										<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-											<strong>@lang('cv.error')</strong> @lang('cv.error_msg')
-											<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
-										</div>
-										
-										<div class="form-content">
-											<div class="form-control-custom">
-												<input type="text" class="form-control" name="name" placeholder="@lang('cv.your_name') *" data-msg-required="@lang('cv.name_required')" id="name" required="" />
-											</div>
-											<div class="form-control-custom">
-												<input type="text" class="form-control" name="subject" placeholder="@lang('cv.subject') *" data-msg-required="@lang('cv.subject_required')" id="subject" required="" />
-											</div>
-											<div class="form-control-custom">
-												<textarea maxlength="5000" name="message" id="message" placeholder="@lang('cv.message') *" data-msg-required="@lang('cv.message_required')" rows="10" class="form-control" required="" aria-required="true"></textarea>
-											</div>
-											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="@lang('cv.submit')" />
-										</div>
-									</form>
-
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="col-lg-6 p-0">
+					<div class="col-lg-12 p-0">
 						<section class="section section-no-border h-100 m-0" style="background: url(img/resume/about-me/about-me-bg-1.jpg); background-size: cover;">
 							<div class="row m-0">
-								<div class="col-half-section col-half-section-left ml-3">
+								<div class="col-half-section col-half-section-left ml-10">
+									<h2 class="text-color-light text-uppercase font-weight-extra-bold">@lang('cv.contact_me')</h2>
 									<a href="mailto:ingdanielsanchezve@gmail.com" class="text-decoration-none">
 										<span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
