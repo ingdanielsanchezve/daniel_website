@@ -39,6 +39,18 @@
 												</span>
 											</span>
 										</a>
+										</a>
+										<a href="https://api.whatsapp.com/send?phone=584127667976" class="text-decoration-none">
+											<span class="feature-box custom-feature-box align-items-center mb-4">
+												<span class="custom-feature-box-icon">
+													<i class="fab fa-whatsapp text-color-light"></i>
+												</span>
+												<span class="feature-box-info">
+													<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Whatsapp</span>
+													<strong class="font-weight-light text-color-light custom-opacity-effect-1">(+58) 412 766-7976</strong>
+												</span>
+											</span>
+										</a>
 										<span class="feature-box custom-feature-box align-items-center">
 											<span class="custom-feature-box-icon">
 												<i class="icon-share icons text-color-light"></i>
@@ -52,11 +64,6 @@
 											<a href="http://github.com/ingdanielsanchezve" target="_blank" class="d-flex text-decoration-none">
 												<span class="feature-box-info custom-both-side-border mt-2">
 													<strong class="font-weight-light text-color-light custom-opacity-effect-1">GitHub</strong>
-												</span>
-											</a>										
-											<a href="https://api.whatsapp.com/send?phone=584127667976" target="_blank" class="d-flex text-decoration-none">
-												<span class="feature-box-info custom-both-side-border mt-2">
-													<strong class="font-weight-light text-color-light custom-opacity-effect-1">Whatsapp</strong>
 												</span>
 											</a>										
 										</span>
