@@ -54,6 +54,11 @@
 													<strong class="font-weight-light text-color-light custom-opacity-effect-1">GitHub</strong>
 												</span>
 											</a>										
+											<a href="https://api.whatsapp.com/send?phone=584127667976" target="_blank" class="d-flex text-decoration-none">
+												<span class="feature-box-info custom-both-side-border mt-2">
+													<strong class="font-weight-light text-color-light custom-opacity-effect-1">Whatsapp</strong>
+												</span>
+											</a>										
 										</span>
 									</div>
 								</div>

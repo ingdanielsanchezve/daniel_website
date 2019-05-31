@@ -27,7 +27,7 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Create ajax request to the server to query the data stored in the system database and render in the interface usign backend endpoints.',
+            'description' => 'Create ajax request to the server to query the data stored in the system database and render in the interface using backend endpoints.',
             'experiences_id' => 1
         ]);
 
@@ -37,27 +37,27 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Design Html templates usign css framework Twitter Bootstrap.',
+            'description' => 'Design Html templates using css framework Twitter Bootstrap.',
             'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign Atlasian Jiira to manage the user history, comments and development requests.',
+            'description' => 'Using Atlasian Jiira to manage the user history, comments and development requests.',
             'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign Atlasian Confluence for tickets documentations.',
+            'description' => 'Using Atlasian Confluence for tickets documentations.',
             'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign Atlasian Bitbucket as store repositorie and Git as control version system for the project code.',
+            'description' => 'Using Atlasian Bitbucket as store repositorie and Git as control version system for the project code.',
             'experiences_id' => 1
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign SCRUM Agile methodology as software development methodology with sprint daily standup, sprint look ahead, sprint review and sprint retrospective meetings.',
+            'description' => 'Using SCRUM Agile methodology as software development methodology with sprint daily standup, sprint look ahead, sprint review and sprint retrospective meetings.',
             'experiences_id' => 1
         ]);
 
@@ -102,17 +102,17 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Design views templates usign css framework Twitter Bootstrap.',
+            'description' => 'Design views templates using css framework Twitter Bootstrap.',
             'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign Jiira to manage the user history, comments and development requests',
+            'description' => 'Using Jiira to manage the user history, comments and development requests',
             'experiences_id' => 2
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Usign Git as control version system for the project code.',
+            'description' => 'Using Git as control version system for the project code.',
             'experiences_id' => 2
         ]);
 
@@ -162,7 +162,7 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Frontend Software Development usign AngularJs and VueJs.',
+            'description' => 'Frontend Software Development using AngularJs and VueJs.',
             'experiences_id' => 3
         ]);
 
