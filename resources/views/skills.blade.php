@@ -9,14 +9,14 @@
 							</div>
 							<div class="row">
 								@foreach($skills as $skill)
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-sm-4">
 									<i class="fas fa-caret-right"></i> <a href="#" class="badge badge-primary">{{$skill->name}}</a>
 								</div>
 								@endforeach
 							</div>
 						</div>
 
-						<div class="col-md-6 col-lg-4">
+						<div class="col-md-6 col-lg-4 col-sm-4">
 							<div class="row">
 								<div class="col">
 									<div class="custom-box-details bg-color-light custom-box-shadow-1">
