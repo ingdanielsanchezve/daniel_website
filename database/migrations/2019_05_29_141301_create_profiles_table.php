@@ -18,6 +18,7 @@ class CreateProfilesTable extends Migration
             $table->string('name');
             $table->string('picture');
             $table->string('title');
+            $table->string('technologies');
             $table->string('location');
             $table->string('subtitle');
             $table->string('linkedin');

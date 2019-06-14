@@ -8,7 +8,8 @@
 						</div>
 						<div class="col-lg-6 col-xl-5">
 							<h1 class="text-color-primary custom-font-size-1">{{$profile->name}}</h1>
-							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">{{$profile->title}}</p>
+							<p class="text-color-light font-weight-normal custom-font-size-2">{{$profile->title}}</p>
+							<p class="text-color-light font-weight-normal custom-font-size-3 custom-margin-bottom-1">{{$profile->technologies}}</p>
 							<span class="custom-about-me-infos">
 								<span class="custom-text-color-1 text-uppercase">{{$profile->location}}</span>
 								<span class="custom-text-color-1 text-uppercase mb-3">{{$profile->subtitle}}</span>
