@@ -13,9 +13,9 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
-            'url' => 'https://www.udemy.com/certificate/UC-1CEW03K2/',
+            'url' => 'https://ude.my/UC-1CEW03K2/',
             'img' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-1CEW03K2.jpg',
-            'title' => 'Primeros pasos con Vue.Js',
+            'title' => 'Primeros pasos con Vue.js | Vue en ejercicios',
             'width' => '185',
             'height' => '120',
             'certified_by' => 'Udemy'
