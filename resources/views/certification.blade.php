@@ -8,6 +8,8 @@
 							@if(($i+1) == 1 || ($i+1) % 4 == 0)
 								<div class="row">
 							@endif
+							@switch($certs[$i]->certified_by)
+								@case('TestDome')
 									<div class="col-lg-3 col-sm-3 pb-4">
 										<a href="{{$certs[$i]->url}}" target="_blank" class="testdome-certificate-stamp {{$certs[$i]->level}}">
 											<span class="testdome-certificate-name">{{$certs[$i]->name}}</span>
@@ -15,6 +17,15 @@
 											<span class="testdome-certificate-card-logo">{{$certs[$i]->certified_by}} <br /> {{$certs[$i]->certified_type}}</span>
 										</a>
 									</div>
+								@break
+								@case('Udemy')
+									<div class="col-lg-3 col-sm-3 pb-4">
+										<a href="{{$certs[$i]->url}}" target="_blank">
+											<img src="{{$certs[$i]->img}}" alt="{{$certs[$i]->title}}" style="width:{{$certs[$i]->width}}px; height:{{$certs[$i]->height}}px">												
+										</a>
+									</div>
+								@break								
+							@endswitch
 							@if(($i+1) == 1 || ($i+1) % 4 == 0)
 								</div>
 							@endif

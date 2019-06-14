@@ -5,6 +5,7 @@
 @include('about-me')
 @include('links')
 @include('details')
+<!-- @include('video') -->
 @include('experience')
 @include('education')
 @include('certification')

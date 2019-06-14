@@ -16,11 +16,14 @@ class CreateCertificationsTable extends Migration
         Schema::create('certifications', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('url');
-            $table->string('level');
-            $table->string('name');
+            $table->string('level')->nullable();
+            $table->string('name')->nullable();
             $table->string('title');
             $table->string('certified_by');
-            $table->string('certified_type');
+            $table->string('img')->nullable();
+            $table->integer('width')->nullable();
+            $table->integer('height')->nullable();
+            $table->string('certified_type')->nullable();
             $table->timestamps();
         });
     }
