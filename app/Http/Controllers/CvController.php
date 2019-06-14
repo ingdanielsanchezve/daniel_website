@@ -4,14 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use \App;
-use \App\Profile;
-use \App\Education;
-use \App\Experiences;
-use \App\Certification;
-use \App\Recommendations;
-use \App\Languages;
-use \App\Portfolio;
-use \App\Skills;
+use \App\{Profile, Education, Experiences, Certification, Recommendations, Languages, Portfolio, Skills};
 
 class CvController extends Controller
 {
