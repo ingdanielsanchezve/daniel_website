@@ -13,7 +13,16 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
-            'url' => 'https://ude.my/UC-1CEW03K2/',
+            'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-RK9XV96Z.jpg',
+            'img' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-RK9XV96Z.jpg',
+            'title' => 'Visual Studio Code: Mejora tu velocidad para codificar',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'Udemy'
+        ]);
+
+        DB::table('certifications')->insert([
+            'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-1CEW03K2.jpg',
             'img' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-1CEW03K2.jpg',
             'title' => 'Primeros pasos con Vue.js | Vue en ejercicios',
             'width' => '185',
