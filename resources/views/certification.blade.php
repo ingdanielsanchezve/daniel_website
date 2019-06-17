@@ -21,7 +21,7 @@
 								@case('Udemy')
 									<div class="col-lg-3 col-sm-3 pb-4">
 										<a href="{{$certs[$i]->url}}" target="_blank">
-											<img src="{{$certs[$i]->img}}" alt="{{$certs[$i]->title}}" style="width:{{$certs[$i]->width}}px; height:{{$certs[$i]->height}}px">												
+											<img src="{{$certs[$i]->url}}" alt="{{$certs[$i]->title}}" title="{{$certs[$i]->title}}" style="width:{{$certs[$i]->width}}px; height:{{$certs[$i]->height}}px">
 										</a>
 									</div>
 								@break								
