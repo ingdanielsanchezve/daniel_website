@@ -52,7 +52,7 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Using Atlasian Bitbucket as store repositorie and Git as control version system for the project code.',
+            'description' => 'Using Atlasian Bitbucket as hosting service for repositories and Git as control version system for the project code.',
             'experiences_id' => 1
         ]);
 
@@ -308,7 +308,7 @@ class DetailExperiencesSeeder extends Seeder
         ]);
 
         DB::table('detail_experiences')->insert([
-            'description' => 'Utilización de Atlasian Bitbucket como almacen de los repositorios y Git como sistema de control de versiones para el código del proyecto.',                             
+            'description' => 'Utilización de Atlasian Bitbucket como servicio de almacenamiento de los repositorios y Git como sistema de control de versiones para el código del proyecto.',                             
             'experiences_id' => 7
         ]);
 
