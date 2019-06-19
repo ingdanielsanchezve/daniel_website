@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-F5B0LDYS.jpg',
+            'title' => 'Angular: Convierte cualquier template HTML en una WebAPP',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'Udemy'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-JGONDJ6S.jpg',
             'title' => 'Angular 5 y TypeScript - Curso de introducción paso a paso',
             'width' => '185',
