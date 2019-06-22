@@ -8,10 +8,10 @@
 	</head>
 	<body data-spy="scroll" data-target=".wrapper-spy">
 
-		<div class="body animated slower fadeInRightBig">
+		<div class="body">
             @include('header')
 
-			<div role="main" class="main">
+			<div role="main" class="main animated slower fadeInRightBig">
 
             @yield('content')
 
