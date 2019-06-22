@@ -8,7 +8,7 @@
 	</head>
 	<body data-spy="scroll" data-target=".wrapper-spy">
 
-		<div class="body">
+		<div class="body animated slower fadeInRightBig">
             @include('header')
 
 			<div role="main" class="main">
