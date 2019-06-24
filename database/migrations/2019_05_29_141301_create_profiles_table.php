@@ -34,6 +34,7 @@ class CreateProfilesTable extends Migration
             $table->string('marital_status');
             $table->string('nationality');
             $table->string('phone');
+            $table->string('whatsapp');
             $table->string('email');
             $table->string('lang');
             $table->timestamps();

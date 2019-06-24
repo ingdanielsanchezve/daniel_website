@@ -14,3 +14,22 @@
 Route::get('/', 'CvController@index');
 
 Route::get('/{lang}', 'CvController@changeLanguage')->where(['lang' => 'es|en']);
+
+Route::get('me', 'CvController@getAboutMeinfo');
+
+Route::get('details', 'CvController@getDetailsInfo');
+
+Route::get('experience', 'CvController@getExperienceInfo');
+
+Route::get('education', 'CvController@getEducationInfo');
+
+Route::get('certification', 'CvController@getCertificationInfo');
+
+Route::get('recommendations', 'CvController@getRecommendationsInfo');
+
+Route::get('skills', 'CvController@getSkillsInfo');
+
+Route::get('portfolio', 'CvController@getPortfolioInfo');
+
+Route::get('contact', 'CvController@getContactInfo');
+
