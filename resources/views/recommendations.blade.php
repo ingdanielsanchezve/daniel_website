@@ -2,7 +2,7 @@
 				<div class="container">
 					<div class="row text-center">
 						<div class="col">
-							<h2 class="text-uppercase font-weight-bold">@lang('cv.recommendations')</h2>
+							<h2 class="text-uppercase text-color-light font-weight-bold">@lang('cv.recommendations')</h2>
 						</div>
 					</div>
 					<div class="row justify-content-center">
