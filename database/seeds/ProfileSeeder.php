@@ -39,7 +39,7 @@ class ProfileSeeder extends Seeder
         DB::table('profiles')->insert([
             'name'           => 'Daniel Sánchez',
             'picture'        => 'img/resume/about-me/me.jpg',            
-            'title'          => 'Full Stack Web Developer - Computer Engineer',
+            'title'          => 'Full Stack Developer - Computer Engineer',
             'technologies'   => 'PHP / Javascript / HTML5 / CSS3 / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker',
             'location'       => 'Valencia, Venezuela',
             'subtitle'       => 'INFORMATION TECHNOLOGY & SERVICES',
