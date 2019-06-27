@@ -12222,7 +12222,7 @@ html.boxed .slider-container {
 }
 
 .testimonial.testimonial-with-quotes blockquote:before {
-	color: #777;
+	color: #fff;
 	display: block !important;
 	left: 10px;
 	top: 0;
@@ -12234,14 +12234,14 @@ html.boxed .slider-container {
 }
 
 .testimonial.testimonial-with-quotes blockquote:after {
-	color: #777;
+	color: #fff;
 	display: block !important;
 	right: 10px;
 	font-size: 80px;
 	font-style: normal;
 	line-height: 1;
 	position: absolute;
-	bottom: -0.5em;
+	bottom: 0;
 	content: "”";
 }
 
