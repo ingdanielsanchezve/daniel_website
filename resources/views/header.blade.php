@@ -1,5 +1,5 @@
 			<header id="header" class="header-floating-icons" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
-				<div class="header-body animated slower fadeInRightBig">
+				<div class="header-body animated slower fadeIn">
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">

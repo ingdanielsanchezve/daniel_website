@@ -11,7 +11,7 @@
 		<div class="body">
             @include('header')
 
-			<div role="main" class="main animated slower fadeInRightBig">
+			<div role="main" class="main animated slower fadeIn">
 
             @yield('content')
 
