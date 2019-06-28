@@ -45,7 +45,10 @@ return [
     'rights' => 'Copyright © 2019 Daniel Sánchez, Todos los derechos reservados.',
     'calm' => 'Calma...',
     'calm_message' => 'Esto NO es lo que deberías de haber visto',
-    'calm_explain' => 'Sin embargo, no te preocupes. si estas viendo esto es porque estoy haciendo mantenimiento de mi sitio web, intenta volver un poco más tarde o contáctame por alguno de los medios que he dejado por acá.'
+    'calm_explain' => 'Sin embargo, no te preocupes. si estas viendo esto es porque estoy haciendo mantenimiento de mi sitio web, intenta volver un poco más tarde o contáctame por alguno de los medios que he dejado por acá.',
+    'refunds' => 'Reembolsos',
+    'refunds_policy' => 'Politica de Reembolsos',
+    'refunds_policy_text' => '<p>Estas son las situaciones en las que esperamos que usted pueda solicitar un reembolso de dinero en concepto de productos y/o servicios negociados a través de este sitio web.</p> <p></p> <p><strong>El artículo no coincide con lo descrito</strong></p> <p>Se considera que el producto no corresponde según lo descrito, si es materialmente diferente de la descripción o de la demostración del sistema; así que usted debe esperar que el producto corresponda según lo descrito en este sitio web y que funciones de acuerdo a las características descritas en este sitio web. Si resulta que el artículo no coincide según lo descrito usted «tendrá derecho a un reembolso completo”.</p> <p></p> <p><strong>El artículo tiene una vulnerabilidad de seguridad</strong></p> <p>Si el producto contiene una vulnerabilidad de seguridad y no puede ser fácilmente solucionado por el equipo de desarrollo de nuestro sitio web usted tiene derecho a exigir el reembolso de dinero en concepto de la compra del producto.</p> <p></p> <p><strong>¿Cuando un reembolso no podrá ser extendido?</strong></p> <p>Si el artículo es sustancialmente similar a la descripción y vista previa y funciona como debería, en general no hay obligación de proporcionar un reembolso en situaciones como las siguientes:</p> <ul> <li>Si el reembolso es solicitado, luego de haber accedido al enlace de descarga del software </li> <li>El software no cumplió con sus expectativas </li> <li>Simplemente porque cambió de opinión</li> <li>Compró el artículo por error</li> <li>No tiene suficiente experiencia para utilizar el sistema </li> </ul>'
 
 
 ];

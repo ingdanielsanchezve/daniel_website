@@ -15,6 +15,8 @@ Route::get('/', 'CvController@index');
 
 Route::get('/{lang}', 'CvController@changeLanguage')->where(['lang' => 'es|en']);
 
+Route::view('/refunds', 'refunds');
+
 Route::get('me', 'CvController@getAboutMeinfo');
 
 Route::get('details', 'CvController@getDetailsInfo');
