@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ App::getLocale() }}">
 	<head>
 
 		@include('doc_header')
@@ -11,9 +11,11 @@
 		<div class="body">
             @include('header')
 
-			<div role="main" class="main animated slower fadeIn">
+			<div role="main" class="main animated slower fadeIn" id="app">
 
             @yield('content')
+
+			</div>
 
 			@include('footer')
 		</div>

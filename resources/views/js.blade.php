@@ -33,6 +33,11 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+		<script type="text/javascript">      
+		  window.csrf_token = "{{ csrf_token() }}"
+		</script>
+
+		<script src="js/app.js"></script>
 
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.

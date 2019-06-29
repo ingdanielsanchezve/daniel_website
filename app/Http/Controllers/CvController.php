@@ -44,16 +44,16 @@ class CvController extends Controller
 
     }
 
-    public function getAboutMeinfo(){
+    public function getAboutMeinfo($lang){
 
-        return Profile::where('lang', App::getLocale())
+        return Profile::whereLang($lang)
                       ->select('picture', 'name', 'title', 'technologies', 'location', 'subtitle', 'linkedin', 'github', 'skype')
                       ->first();
     }
 
-    public function getDetailsInfo(){
+    public function getDetailsInfo($lang){
 
-        return Profile::where('lang', App::getLocale())
+        return Profile::whereLang($lang)
                ->select('birthdate', 'marital_status', 'nationality', 'skype', 'skype', 'phone', 'email', 'email', 'aboutme', 'aboutme_more1', 'aboutme_more2', 'aboutme_more3', 'aboutme_more4')
                ->first();
     }

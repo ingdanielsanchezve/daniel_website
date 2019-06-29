@@ -7,6 +7,7 @@
 		<meta name="keywords" content="Daniel Sánchez - Full Stack Web Developer - PHP / Javascript / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker" /> 
 
 		<meta name="description" content="Daniel Sánchez Computer engineer with a large web development and software engineering experience using LAMP and MEAN stacks, knowledge in responsive web site development, HTML5, CSS3, Bootstrap, Javascript, Jquery, Ajax, AngularJS, BackboneJS, Underscore, Mustache, GruntJs, VueJs,NodeJs, MochaJs, ChaiJs, PHP, Laravel Framework, SQL, MySQL, Oracle, PostgreSQL, Firebird, MongoDB, DynamoDB Databases, Linux, GIT, SVN, Facebook, Twitter, Instagram, LinkedIn, Pinterest, Mailchimp and PayU developers APIs, Web Services and RESTful APIs development, Test Driven Development TDD, Unit Testing, MVC software architecture pattern, Apache module implementation, Virtual Servers administration on Amazon Web Services AWS EC2 instances, Linux Server Administration (Debian, Ubuntu, CentOS), SEO knowledges, Pl-SQL, Application Development with Oracle Developer Suite 6, Visual Studio 6, Agile development methodologies XP and SCRUM, Docker Images and containers">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
 
 	    <meta name="robots" content="index,follow">
 	    <meta name="dcterms.rightsHolder" content="copyright © 2019 Daniel Sánchez, all rights reserved.">

@@ -1,9 +1,9 @@
 @extends('layout')
 @section('title', 'Daniel Sánchez - Full Stack Web Developer - PHP / Javascript / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker')
 @section('content')
-@include('about-me')
+<about-me></about-me>
 @include('links')
-@include('details')
+<my-details></my-details>
 @include('experience')
 @include('education')
 @include('certification')

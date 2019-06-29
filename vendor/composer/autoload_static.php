@@ -84,6 +84,7 @@ class ComposerStaticInita076d21dfa4ca26a09f5435054cd1772
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MartinLindhe\\VueInternationalizationGenerator\\' => 46,
         ),
         'L' => 
         array (
@@ -260,6 +261,10 @@ class ComposerStaticInita076d21dfa4ca26a09f5435054cd1772
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'MartinLindhe\\VueInternationalizationGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/martinlindhe/laravel-vue-i18n-generator/src',
         ),
         'League\\Flysystem\\' => 
         array (
@@ -1951,6 +1956,9 @@ class ComposerStaticInita076d21dfa4ca26a09f5435054cd1772
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'MartinLindhe\\VueInternationalizationGenerator\\Commands\\GenerateInclude' => __DIR__ . '/..' . '/martinlindhe/laravel-vue-i18n-generator/src/Commands/GenerateInclude.php',
+        'MartinLindhe\\VueInternationalizationGenerator\\Generator' => __DIR__ . '/..' . '/martinlindhe/laravel-vue-i18n-generator/src/Generator.php',
+        'MartinLindhe\\VueInternationalizationGenerator\\GeneratorProvider' => __DIR__ . '/..' . '/martinlindhe/laravel-vue-i18n-generator/src/GeneratorProvider.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV5.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV6' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV6.php',
