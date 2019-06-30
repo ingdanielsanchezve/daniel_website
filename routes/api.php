@@ -17,18 +17,22 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('me/{lang}', 'CvController@getAboutMeinfo')->where(['lang' => 'es|en']);
+Route::get('profile/{lang}', 'CvController@getProfile')->where(['lang' => 'es|en']);
 
-Route::get('details/{lang}', 'CvController@getDetailsInfo')->where(['lang' => 'es|en']);
+Route::get('me/{lang}', 'CvController@getAboutMe')->where(['lang' => 'es|en']);
 
-Route::get('experience/{lang}', 'CvController@getExperienceInfo')->where(['lang' => 'es|en']);
+Route::get('details/{lang}', 'CvController@getDetails')->where(['lang' => 'es|en']);
 
-Route::get('education/{lang}', 'CvController@getEducationInfo')->where(['lang' => 'es|en']);
+Route::get('experience/{lang}', 'CvController@getExperiences')->where(['lang' => 'es|en']);
 
-Route::get('certification/{lang}', 'CvController@getCertificationInfo')->where(['lang' => 'es|en']);
+Route::get('education/{lang}', 'CvController@getEducation')->where(['lang' => 'es|en']);
 
-Route::get('recommendations/{lang}', 'CvController@getRecommendationsInfo')->where(['lang' => 'es|en']);
+Route::get('recommendations/{lang}', 'CvController@getRecommendations')->where(['lang' => 'es|en']);
 
-Route::get('skills/{lang}', 'CvController@getSkillsInfo')->where(['lang' => 'es|en']);
+Route::get('languages/{lang}', 'CvController@getLanguages')->where(['lang' => 'es|en']);
 
-Route::get('portfolio/{lang}', 'CvController@getPortfolioInfo')->where(['lang' => 'es|en']);
+Route::get('certification', 'CvController@getCertifications');
+
+Route::get('skills', 'CvController@getSkills');
+
+Route::get('portfolio', 'CvController@getPortfolio');

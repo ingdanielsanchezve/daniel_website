@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use \App;
-use \App\{Profile, Education, Experiences, Certification, Recommendations, Languages, Portfolio, Skills, ContactInfo};
+use \App\{Profile, Education, Experiences, Certification, Recommendations, Languages, Portfolio, Skills, Contact};
 
 class CvController extends Controller
 {
@@ -44,62 +44,67 @@ class CvController extends Controller
 
     }
 
-    public function getAboutMeinfo($lang){
+    public function getProfile($lang){
 
         return Profile::whereLang($lang)
-                      ->select('picture', 'name', 'title', 'technologies', 'location', 'subtitle', 'linkedin', 'github', 'skype')
                       ->first();
     }
 
-    public function getDetailsInfo($lang){
+    public function getAboutMe($lang){
+
+        return Profile::whereLang($lang)
+                      ->select('picture', 'name', 'title', 'technologies', 'location', 'subtitle', 'linkedin', 'github', 'skype', 'cv_url')
+                      ->first();
+    }
+
+    public function getDetails($lang){
 
         return Profile::whereLang($lang)
                ->select('birthdate', 'marital_status', 'nationality', 'skype', 'skype', 'phone', 'email', 'email', 'aboutme', 'aboutme_more1', 'aboutme_more2', 'aboutme_more3', 'aboutme_more4')
                ->first();
     }
 
-    public function getExperienceInfo(){
+    public function getExperiences($lang){
 
-        return Experiences::where('lang', App::getLocale())->with('detail_experiences')->get();
-
-    }
-
-    public function getEducationInfo(){
-
-        return Education::where('lang', App::getLocale())->get();
+        return Experiences::whereLang($lang)->with('detail_experiences')->get();
 
     }
 
-    public function getRecommendationsInfo(){
+    public function getEducation($lang){
 
-        return Recommendations::where('lang', App::getLocale())->get();
+        return Education::whereLang($lang)->get();
 
     }
 
-    public function getCertificationInfo(){
+    public function getRecommendations($lang){
+
+        return Recommendations::whereLang($lang)->get();
+
+    }
+
+    public function getLanguages($lang){
+
+        return Languages::whereLang($lang)->get();
+
+    }
+
+    public function getCertifications(){
 
         return Certification::get();
 
     }
 
-    public function getSkillsInfo(){
+    public function getSkills(){
 
         return Skills::get();
 
     }
 
-    public function getPortfolioInfo(){
+
+    public function getPortfolio(){
 
         return Portfolio::get();
 
     }
-
-    public function getContactInfo(){
-
-        return ContactInfo::get();
-
-    }
-
-
 
 }

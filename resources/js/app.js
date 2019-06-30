@@ -39,7 +39,21 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import {APIService} from './services/APIService';
+const apiService = new APIService();
+
 const app = new Vue({
     el: '#app',
-    i18n
+    i18n,
+    data:{
+        profile: {picture: ''}
+    },
+    methods:{
+        getProfileinfo: function(){
+            apiService.getProfileinfo().then(response => (this.profile = response.data));
+        }
+    },
+    created: function () {
+        this.getProfileinfo();
+    }
 });

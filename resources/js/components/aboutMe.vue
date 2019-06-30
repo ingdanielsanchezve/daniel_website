@@ -52,25 +52,7 @@
 </template>
 
 <script>
-
-    import {APIService} from '../services/APIService';
-    const apiService = new APIService();
-
     export default {
-        data () {
-            return {
-            profile: {'picture': ''}
-            }
-        },
-        methods: {
-
-            getAboutMeinfo(){
-                apiService.getAboutMeinfo().then(response => (this.profile = response.data));
-            }
-
-        },
-        mounted () {
-            this.getAboutMeinfo();
-        }
+        props: ['profile']
     }
 </script>

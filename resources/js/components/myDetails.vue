@@ -31,7 +31,7 @@
 									</li>
 									<li>
 										<span class="text-color-dark">{{ $t('cv.phone') }}:</span>
-										<span class="custom-text-color-2"><a class="custom-text-color-2" :href="'tel:+'+profile.phone">{{ profile.phone }}</a></span>
+										<span class="custom-text-color-2"><a class="custom-text-color-2" :href="'tel:+'+profile.phone">+{{ profile.phone }}</a></span>
 									</li>
 									<li>
 										<span class="text-color-dark">{{ $t('cv.email') }}:</span>
@@ -62,25 +62,7 @@
 </template>
 
 <script>
-
-    import {APIService} from '../services/APIService';
-    const apiService = new APIService();
-
     export default {
-        data () {
-            return {
-            profile: {}
-            }
-        },
-        methods: {
-
-            getDetailsInfo(){
-                apiService.getDetailsInfo().then(response => (this.profile = response.data));
-            }
-
-        },
-        mounted () {
-            this.getDetailsInfo();
-        }
+        props: ['profile']
     }
 </script>
