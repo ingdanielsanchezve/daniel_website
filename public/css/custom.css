@@ -81,6 +81,13 @@
   }
   
   .animated.slower {
-	-webkit-animation-duration: 3s;
-	animation-duration: 3s;
-  }
+		-webkit-animation-duration: 3s;
+		animation-duration: 3s;
+	}
+	
+	.my-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

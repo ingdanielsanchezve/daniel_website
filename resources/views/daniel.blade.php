@@ -6,9 +6,9 @@
 <my-details :profile="profile"></my-details>
 <experiences></experiences>
 <education></education>
-@include('certification')
-@include('recommendations')
+<certifications></certifications>
+<recommendations></recommendations>
 <skills></skills>
-@include('portfolio')
+<portfolio></portfolio>
 <contact :profile="profile"></contact>
 @endsection

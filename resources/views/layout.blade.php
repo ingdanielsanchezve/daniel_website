@@ -8,20 +8,19 @@
 	</head>
 	<body data-spy="scroll" data-target=".wrapper-spy">
 
-		<div class="body">
-            @include('header')
+		<div class="body" id="app">
+            <opt-menu></opt-menu>
 
-			<div role="main" class="main animated slower fadeIn" id="app">
+			<div role="main" class="main animated slower fadeIn">
 
             @yield('content')
 
 			</div>
 
-			@include('footer')
+			<site-footer></site-footer>
 		</div>
 
 		@include('js')
-
 
 	</body>
 </html>

@@ -29,10 +29,8 @@ Route::get('education/{lang}', 'CvController@getEducation')->where(['lang' => 'e
 
 Route::get('recommendations/{lang}', 'CvController@getRecommendations')->where(['lang' => 'es|en']);
 
-Route::get('languages/{lang}', 'CvController@getLanguages')->where(['lang' => 'es|en']);
+Route::get('skills_languages/{lang}', 'CvController@getSkillsLanguages')->where(['lang' => 'es|en']);
 
 Route::get('certification', 'CvController@getCertifications');
-
-Route::get('skills', 'CvController@getSkills');
 
 Route::get('portfolio', 'CvController@getPortfolio');

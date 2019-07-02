@@ -27,16 +27,12 @@ export class APIService{
         return axios.get(this.getEndPointUrl(`recommendations/${lang}`)).then(response => response);
     }
     
-    getLanguagesInfo(){
-        return axios.get(this.getEndPointUrl(`languages/${lang}`)).then(response => response);
+    getSkillsLanguagesInfo(){
+        return axios.get(this.getEndPointUrl(`skills_languages/${lang}`)).then(response => response);
     }
 
     getCertificationInfo(){
         return axios.get(this.getEndPointUrl('certification')).then(response => response);
-    }
-
-    getSkillsInfo(){
-        return axios.get(this.getEndPointUrl('skills')).then(response => response);
     }
 
     getPortfolioInfo(){

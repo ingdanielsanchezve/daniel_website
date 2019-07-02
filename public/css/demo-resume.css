@@ -263,6 +263,7 @@ section.section {
 	#header.header-floating-icons .header-nav-main nav > ul > li > a {
 		font-size: 25px;
 		padding: 17.1px;
+		cursor: pointer;
 		-webkit-perspective: 770px;
 						perspective: 770px;
 	}

@@ -82,21 +82,15 @@ class CvController extends Controller
 
     }
 
-    public function getLanguages($lang){
+    public function getSkillsLanguages($lang){
 
-        return Languages::whereLang($lang)->get();
+        return ['skills' => Skills::get(), 'languages' => Languages::whereLang($lang)->get()];
 
     }
 
     public function getCertifications(){
 
         return Certification::get();
-
-    }
-
-    public function getSkills(){
-
-        return Skills::get();
 
     }
 

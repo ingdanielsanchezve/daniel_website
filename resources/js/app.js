@@ -12,7 +12,15 @@ import VueInternationalization from 'vue-i18n';
 
 import Locale from './vue-i18n-locales.generated';
 
+import vGallery from 'v-gallery';
+
+const VueScrollTo = require('vue-scrollto');
+
+Vue.use(vGallery);
+
 Vue.use(VueInternationalization);
+
+Vue.use(VueScrollTo)
 
 const lang = document.documentElement.lang.substr(0, 2);
 // or however you determine your current app locale
