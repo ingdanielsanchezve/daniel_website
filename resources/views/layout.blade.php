@@ -9,7 +9,11 @@
 	<body data-spy="scroll" data-target=".wrapper-spy">
 
 		<div class="body" id="app">
-            <opt-menu></opt-menu>
+			@if($desktop == true)
+				<opt-menu></opt-menu>
+			@else
+            	@include('header')
+			@endif
 
 			<div role="main" class="main animated slower fadeIn">
 

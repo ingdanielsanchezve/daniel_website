@@ -5,42 +5,25 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use \App;
 use \App\{Profile, Education, Experiences, Certification, Recommendations, Languages, Portfolio, Skills, Contact};
+use Jenssegers\Agent\Agent;
 
 class CvController extends Controller
 {
     public function index(){
+        
+        $agent = new Agent();
 
-        return view('daniel', 
-            [
-                'profile'   => Profile::where('lang', App::getLocale())->first(),
-                'education' => Education::where('lang', App::getLocale())->get(),
-                'recommendations' => Recommendations::where('lang', App::getLocale())->get(),
-                'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
-                'languages' => Languages::where('lang', App::getLocale())->get(),
-                'certs' => Certification::get(),
-                'portfolio' => Portfolio::get(),
-                'skills' => Skills::get()
-             ]
-        );
+        return view('daniel', ['desktop' => $agent->isDesktop()]);
 
     }
 
     public function changeLanguage($lang){
 
+        $agent = new Agent();
+        
         App::setLocale($lang);
 
-        return view('daniel', 
-            [
-                'profile'   => Profile::where('lang', App::getLocale())->first(),
-                'education' => Education::where('lang', App::getLocale())->get(),
-                'recommendations' => Recommendations::where('lang', App::getLocale())->get(),
-                'experiences' => Experiences::where('lang', App::getLocale())->with('detail_experiences')->get(),
-                'languages' => Languages::where('lang', App::getLocale())->get(),                
-                'certs' => Certification::get(),
-                'portfolio' => Portfolio::get(),
-                'skills' => Skills::get()
-             ]
-        );
+        return view('daniel', ['desktop' => $agent->isDesktop()]);
 
     }
 
