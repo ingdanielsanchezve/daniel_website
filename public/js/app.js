@@ -55464,7 +55464,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 
-var API_URL = 'http://127.0.0.1:8000/api';
+var API_URL = '/api';
 var lang = document.documentElement.lang.substr(0, 2);
 var APIService =
 /*#__PURE__*/

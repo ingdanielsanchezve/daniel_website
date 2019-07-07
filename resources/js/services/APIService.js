@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = window.location.hostname+'/api';
+const API_URL = '/api';
 const lang = document.documentElement.lang.substr(0, 2);
 
 export class APIService{
