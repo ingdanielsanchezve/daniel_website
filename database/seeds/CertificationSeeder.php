@@ -45,8 +45,8 @@ class CertificationSeeder extends Seeder
         ]);
 
         DB::table('certifications')->insert([
-            'url' => 'https://www.testdome.com/cert/9fcd63c330374e8ea794f05eab66eff0',
-            'level' => 'silver',
+            'url' => 'https://www.testdome.com/cert/e13f0e4b26e54b0d96391f2693f4109a',
+            'level' => 'gold',
             'name' => 'Daniel Sánchez',
             'title' => 'HTML/CSS',
             'certified_by' => 'TestDome',
