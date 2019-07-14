@@ -15,8 +15,6 @@
 	    <meta name="revisit-after" content="1">  
 	    <meta name="application-name" content="Daniel Sánchez">
 	    <meta name="application-url" content="https://iamdanielsanchez.ml/"/>
-	    <meta name="msapplication-tooltip" content="">
-	    <meta name="msapplication-starturl" content="https://iamdanielsanchez.ml/">  
 
 
 	     <meta property="og:url" content="https://iamdanielsanchez.ml/" />
@@ -24,7 +22,7 @@
 	     <meta property="og:type"        content="website" />
 	     <meta property="og:title"       content="Daniel Sánchez" />
 	     <meta property="og:description" content="Daniel Sánchez Computer engineer with a large web development and software engineering experience using LAMP and MEAN stacks, knowledge in responsive web site development, HTML5, CSS3, Bootstrap, Javascript, Jquery, Ajax, AngularJS, BackboneJS, Underscore, Mustache, GruntJs, VueJs,NodeJs, MochaJs, ChaiJs, PHP, Laravel Framework, SQL, MySQL, Oracle, PostgreSQL, Firebird, MongoDB, DynamoDB Databases, Linux, GIT, SVN, Facebook, Twitter, Instagram, LinkedIn, Pinterest, Mailchimp and PayU developers APIs, Web Services and RESTful APIs development, Test Driven Development TDD, Unit Testing, MVC software architecture pattern, Apache module implementation, Virtual Servers administration on Amazon Web Services AWS EC2 instances, Linux Server Administration (Debian, Ubuntu, CentOS), SEO knowledges, Pl-SQL, Application Development with Oracle Developer Suite 6, Visual Studio 6, Agile development methodologies XP and SCRUM, Docker Images and containers" />
-	     <meta property="og:image"       content="{{ asset('img/favicon/favicon.png') }}" />
+	     <meta property="og:image"       content="{{ asset('img/resume/about-me/me.jpg') }}" />
 	     <meta property="og:locale:alternate" content="es" />
 
 	     <meta name="author" content="Daniel Sánchez">
@@ -33,8 +31,8 @@
 	     <meta name="application-url" content="https://iamdanielsanchez.ml"/>
 	     <meta name="msapplication-tooltip" content="Daniel Sánchez">
 	     <meta name="msapplication-starturl" content="https://iamdanielsanchez.ml/">
-	     <meta name="msapplication-TileColor" content="#FFC321">
-	     <meta name="msapplication-TileImage" content="https://iamdanielsanchez.ml/img/favicon/favicon.png">
+	     <meta name="msapplication-TileColor" content="#575eca">
+	     <meta name="msapplication-TileImage" content="https://iamdanielsanchez.ml/img/resume/about-me/me.jpg">
 	     <meta name="HandheldFriendly" content="True">
 		 <meta name="MobileOptimized" content="320">
 		 
@@ -42,7 +40,7 @@
 		 <meta name="instagram:description" content="Daniel Sánchez Computer engineer with a large web development and software engineering experience using LAMP and MEAN stacks, knowledge in responsive web site development, HTML5, CSS3, Bootstrap, Javascript, Jquery, Ajax, AngularJS, BackboneJS, Underscore, Mustache, GruntJs, VueJs,NodeJs, MochaJs, ChaiJs, PHP, Laravel Framework, SQL, MySQL, Oracle, PostgreSQL, Firebird, MongoDB, DynamoDB Databases, Linux, GIT, SVN, Facebook, Twitter, Instagram, LinkedIn, Pinterest, Mailchimp and PayU developers APIs, Web Services and RESTful APIs development, Test Driven Development TDD, Unit Testing, MVC software architecture pattern, Apache module implementation, Virtual Servers administration on Amazon Web Services AWS EC2 instances, Linux Server Administration (Debian, Ubuntu, CentOS), SEO knowledges, Pl-SQL, Application Development with Oracle Developer Suite 6, Visual Studio 6, Agile development methodologies XP and SCRUM, Docker Images and containers">
 		 <meta name="instagram:title" content="Full Stack Web Developer - PHP / Javascript / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS">
 		 <meta name="instagram:site" content="ingdanielsanchez">
-		 <meta name="instagram:image" content="{{ asset('img/favicon.png') }}">
+		 <meta name="instagram:image" content="{{ asset('img/resume/about-me/me.jpg	') }}">
 		 <meta name="instagram:creator" content="ingdanielsanchez">
 
 		 <script type="application/ld+json">
@@ -87,7 +85,7 @@
 		<meta name="msapplication-wide310x150logo" content="{{ asset('img/favicon/mstile-310x150.png') }}" />
 		<meta name="msapplication-square310x310logo" content="{{ asset('img/favicon/mstile-310x310.png') }}" />
 		<meta name="application-name" content="Daniel Sánchez "/>
-		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileColor" content="#575eca" />
 
 
 		<!-- Mobile Metas -->
