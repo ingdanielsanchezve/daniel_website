@@ -58,5 +58,11 @@ class PortfolioSeeder extends Seeder
             'category' => 'websites',
             'url' => 'img/portfolio/daniel.png'
         ]);
+
+        DB::table('portfolios')->insert([
+            'title' => 'Manufactura Cohesiva Website',
+            'category' => 'websites',
+            'url' => 'img/portfolio/manufactura.png'
+        ]);
     }
 }
