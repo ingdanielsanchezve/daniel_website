@@ -16,7 +16,7 @@ class ProfileSeeder extends Seeder
             'picture'        => 'img/resume/about-me/me.jpg',
             'title'          => 'Desarrollador Full Stack - Ingeniero en Informática',
             'technologies'   => 'PHP / Javascript / HTML5 / CSS3 / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker',
-            'location'       => 'Valencia, Venezuela',
+            'location'       => 'El Vendrell, Tarragona',
             'subtitle'       => 'SERVICIOS INFORMÁTICOS',
             'linkedin'       => 'https://www.linkedin.com/in/ingdanielsanchezvzla/',
             'github'         => 'https://github.com/ingdanielsanchezve/',
@@ -30,8 +30,8 @@ class ProfileSeeder extends Seeder
             'birthdate'      => '24 Marzo 1986',
             'marital_status' => 'Soltero',
             'nationality'    => 'Venezolano',
-            'phone'          => '584127667976',
-            'whatsapp'       => '(+58) 412 766-7976',
+            'phone'          => '34603249528',
+            'whatsapp'       => '(+34) 603-249528',
             'email'          => 'ingdanielsanchezve@gmail.com',
             'lang'           => 'es'
         ]);
@@ -41,7 +41,7 @@ class ProfileSeeder extends Seeder
             'picture'        => 'img/resume/about-me/me.jpg',            
             'title'          => 'Full Stack Developer - Computer Engineer',
             'technologies'   => 'PHP / Javascript / HTML5 / CSS3 / Laravel / NodeJs / Angular / VueJs / MySQL / Oracle / MongoDB / Linux / AWS / Docker',
-            'location'       => 'Valencia, Venezuela',
+            'location'       => 'El Vendrell, Tarragona',
             'subtitle'       => 'INFORMATION TECHNOLOGY & SERVICES',
             'linkedin'       => 'https://www.linkedin.com/in/ingdanielsanchezvzla/',
             'github'         => 'https://github.com/ingdanielsanchezve/',
@@ -55,8 +55,8 @@ class ProfileSeeder extends Seeder
             'birthdate'      => '1986 March 24',
             'marital_status' => 'Single',
             'nationality'    => 'Venezuelan',
-            'phone'          => '584127667976',
-            'whatsapp'       => '(+58) 412 766-7976',
+            'phone'          => '34603249528',
+            'whatsapp'       => '(+34) 603-249528',
             'email'          => 'ingdanielsanchezve@gmail.com',
             'lang'           => 'en'
         ]);

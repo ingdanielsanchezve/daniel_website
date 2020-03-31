@@ -514,6 +514,168 @@ class DetailExperiencesSeeder extends Seeder
             'experiences_id' => 12
         ]);
 
+        DB::table('detail_experiences')->insert([
+            'description' => 'UI and UX design of the SAAS product for broadcasting of C21 Live Director content.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Views design using HTML5, CSS3, Bootstrap CSS and the ElementUI component framework for VueJS.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of VueJs, Typescript and Javascript ES6 for frontend development.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Consume JSON responses returned from the Backend RESTful API endpoints.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of Composer dependency managers for PHP and NPM, YARN and PNPM for Javascript.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of VideoJS to integrate video players using the Streaming HLS protocol.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of NuxtJs, Bootstrap CSS and Element UI to create the views and components frontend code for Video-MOS tool used to Measure Video Content Quality and Monitoring the content transmission quality.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of CanvasJs to create and display responsive HTML5 graphics to represent video quality and streaming quality measurement data in pie charts, bar charts, and line charts.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Creation of Ajax queries to consult the data stored in the databases and the responses of from the encoders using Axios and Asynchronous functions.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Methods and Classes development using PHP 5 and PHP 7 in the Backend to communicate the data between the frontend and the database, implementing business logic, parsing and formatting input data from the application and responses.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of Docker to create images of the application.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of Okteto Cloud to develop Kubernetes K8s namespaces in the cloud.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of Git as a version control system.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of GitLab boards to manage Development Issues and user stories.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of Gitlab and Github as version control repositories store and its tools for development of collaborative software in the company projects.',
+            'experiences_id' => 13
+        ]);
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Use of messaging and communication tools such as Slack, Google Meet, Google Hangout, Skype',
+            'experiences_id' => 13
+        ]);
+
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Diseño UI y UX del producto SAAS para retransmisión de contenido C21 Live Director.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Diseño de vistas usando HTML5, CSS3, Bootstrap CSS y el framework de componentes ElementUI para VueJS.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de VueJs, Typescript y Javascript para el desarrollo de frontend.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Consumir respuestas Json retornadas de los endpoints del API RESTful del Backend.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de gestores de dependencias Composer para PHP y NPM, YARN y PNPM para JS.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de VideoJS para integrar reproductores de vídeo utilizando el protocolo de Streaming HLS.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de NuxtJs, Bootstrap CSS y Element UI para crear las vistas y el código de componentes para la herramienta Video-MOS utilizada para medir la calidad del contenido de video y monitorear la calidad de transmisión de contenido.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de CanvasJs para crear gráficos HTML5 responsive para representar datos de medición de calidad de video y calidad de transmisión en gráficos circulares, gráficos de barras y gráficos de líneas.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Creación de consultas Ajax para consultar los datos almacenados en las bases de datos y las respuestas de los encoders utilizando Axios y funciones asyncronas.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Desarrollo de métodos y clases en el Backend utilizando PHP 5 y PHP 7 para comunicar los datos entre el frontend y la base de datos, además de implementar lógica de negocio, parsear y formatear datos de entrada de los la aplicación y respuestas.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de Docker para la creación de imágenes de la aplicación.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Uso de Okteto Cloud para desarrollar en namespaces Kubernetes K8s en la nube.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Utilización de Git como sistema de control de versiones.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Utilización de los tableros de GitLab para gestionar los Issues del Desarrollo y las historias de usuarios.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Utilización de Gitlab y Github como repositorios de servicios web de control de versiones y desarrollo de software colaborativo de los proyectos de la empresa.',
+            'experiences_id' => 14
+        ]);            
+
+        DB::table('detail_experiences')->insert([
+            'description' => 'Utilización de Herramientas de mensajeria y comunicación Slack, Google Meet, Google Hangout, Skype',
+            'experiences_id' => 14
+        ]);            
+
+
 
 
     }

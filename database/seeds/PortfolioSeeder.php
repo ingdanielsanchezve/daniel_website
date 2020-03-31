@@ -64,5 +64,17 @@ class PortfolioSeeder extends Seeder
             'category' => 'websites',
             'url' => 'img/portfolio/manufactura.png'
         ]);
+
+        DB::table('portfolios')->insert([
+            'title' => 'Video MOS',
+            'category' => 'websites',
+            'url' => 'img/portfolio/videomos.png'
+        ]);
+
+        DB::table('portfolios')->insert([
+            'title' => 'C21 Live Director',
+            'category' => 'websites',
+            'url' => 'img/portfolio/livedirector.png'
+        ]);
     }
 }

@@ -77,7 +77,6 @@ class ExperiencesSeeder extends Seeder
             'duration_time' => '3 YEARS 6 MONTHS',
             'lang' => 'en'
         ]);
-        
 
         DB::table('experiences')->insert([
             'title' => 'Desarrollador Frontend Senior',
@@ -144,6 +143,27 @@ class ExperiencesSeeder extends Seeder
             'duration_time' => '3 AÑOS 6 MESES',
             'lang' => 'es'
         ]);
-        
+     
+        DB::table('experiences')->insert([
+            'title' => 'Senior Frontend Developer',
+            'company' => 'Cires21',
+            'location' => 'Madrid, Spain (Remote)',
+            'observation' => '',
+            'duration_from' => 'Jul 2019',
+            'duration_to' => 'Present',
+            'duration_time' => '9 MONTHS',
+            'lang' => 'en'
+        ]);        
+
+        DB::table('experiences')->insert([
+            'title' => 'Desarrollador Frontend Senior',
+            'company' => 'Cires21',
+            'location' => 'Madrid, España (Remoto)',
+            'observation' => '',
+            'duration_from' => 'Jul 2019',
+            'duration_to' => 'Presente',
+            'duration_time' => '9 MESES',
+            'lang' => 'es'
+        ]);        
     }
 }
