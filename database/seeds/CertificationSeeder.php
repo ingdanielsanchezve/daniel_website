@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/Ethical_Hacking_With_Javascript.png',
+            'title' => 'Ethical Hacking with Javascript',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-F5B0LDYS.jpg',
             'title' => 'Angular: Convierte cualquier template HTML en una WebAPP',
             'width' => '185',
