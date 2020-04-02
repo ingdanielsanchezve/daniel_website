@@ -40301,7 +40301,8 @@ var render = function() {
                             )
                           : _vm._e(),
                         _vm._v(" "),
-                        cert.certified_by == "Udemy"
+                        cert.certified_by == "Udemy" ||
+                        cert.certified_by == "LinkedIn"
                           ? _c(
                               "div",
                               { staticClass: "col-lg-3 col-sm-3 pb-4" },

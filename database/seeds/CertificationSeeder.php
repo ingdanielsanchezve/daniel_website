@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/Laravel_5_6_New_Features.png',
+            'title' => 'Laravel 5.6 New Features',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://iamdanielsanchez.ml/certificates/Ethical_Hacking_With_Javascript.png',
             'title' => 'Ethical Hacking with Javascript',
             'width' => '185',

@@ -16,7 +16,7 @@
                                     </a>
                                 </div>
                             
-                                <div class="col-lg-3 col-sm-3 pb-4" v-if="cert.certified_by == 'Udemy'">
+                                <div class="col-lg-3 col-sm-3 pb-4" v-if="cert.certified_by == 'Udemy' || cert.certified_by == 'LinkedIn'">
                                     <a :href="cert.url" target="_blank">
                                         <img :src="cert.url" :alt="cert.title" :title="cert.title" :style="'width:'+cert.width+'px; height:'+cert.height+'px'">
                                     </a>
