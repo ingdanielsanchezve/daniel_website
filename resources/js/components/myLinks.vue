@@ -21,7 +21,7 @@
 				<div class="col-lg-1 col-sm-6 text-center p-0">
 					<a href="/es" class="text-decoration-none">
 						<span class="custom-nav-button text-color-dark">
-							<img src="img/blank.gif" class="flag flag-ve mr-1" :alt="$t('cv.spanish')"> {{ $t('cv.spa') }}
+							<img src="img/blank.gif" class="flag flag-es mr-1" :alt="$t('cv.spanish')"> {{ $t('cv.spa') }}
 						</span>
 					</a>
 				</div>
