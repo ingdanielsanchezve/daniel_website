@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/Migrating_From_Rest_To_Graphql.png',
+            'title' => 'Migrating From Rest To Graphql',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://iamdanielsanchez.ml/certificates/Laravel_5_6_New_Features.png',
             'title' => 'Laravel 5.6 New Features',
             'width' => '185',
