@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-02d10a55-cfbf-4b62-b068-f5f73a8a32e9.jpg',
+            'title' => 'TypeScript Fast Crash Course',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'Udemy'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://iamdanielsanchez.ml/certificates/Migrating_From_Rest_To_Graphql.png',
             'title' => 'Migrating From Rest To Graphql',
             'width' => '185',
