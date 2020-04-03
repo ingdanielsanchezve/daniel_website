@@ -13,6 +13,14 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/React_esencial.png',
+            'title' => 'React esencial',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://udemy-certificate.s3.amazonaws.com/image/UC-02d10a55-cfbf-4b62-b068-f5f73a8a32e9.jpg',
             'title' => 'TypeScript Fast Crash Course',
             'width' => '185',
@@ -92,7 +100,7 @@ class CertificationSeeder extends Seeder
             'title' => 'JavaScript',
             'certified_by' => 'TestDome',
             'certified_type' => 'Certificate'
-        ]);            
+        ]);
 
         DB::table('certifications')->insert([
             'url' => 'https://www.testdome.com/cert/fb8705ff118f483d9fe948a958ade68e',
