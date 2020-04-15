@@ -1,5 +1,6 @@
 		<!-- Vendor -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.4.1/jquery.appear.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -14,26 +15,26 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vide@0.5.1/dist/jquery.vide.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.min.js"></script>
-		
+
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
-		
+
 		<!-- Current Page Vendor and Views -->
 		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 		<!-- Demo -->
 		<script src="js/demo-resume.js"></script>
-		
+
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
-		
+
 		<!-- Theme Custom -->
 		<script src="js/view.contact.js"></script>
-		
+
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
-		<script type="text/javascript">      
+		<script type="text/javascript">
 		  window.csrf_token = "{{ csrf_token() }}"
 		</script>
 
@@ -46,7 +47,7 @@
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
+
 			ga('create', 'UA-12345678-1', 'auto');
 			ga('send', 'pageview');
 		</script>

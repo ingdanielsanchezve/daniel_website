@@ -13,11 +13,21 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/Svelte_First_Look.png',
+            'title' => 'Svelte First Look',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://iamdanielsanchez.ml/certificates/React_esencial.png',
             'title' => 'React esencial',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'LinkedIn'
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -25,7 +35,8 @@ class CertificationSeeder extends Seeder
             'title' => 'TypeScript Fast Crash Course',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'Udemy'
+            'certified_by' => 'Udemy',
+            'logo' => 'udemy.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -33,7 +44,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Migrating From Rest To Graphql',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'LinkedIn'
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -41,7 +53,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Laravel 5.6 New Features',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'LinkedIn'
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -49,7 +62,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Ethical Hacking with Javascript',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'LinkedIn'
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -57,7 +71,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Angular: Convierte cualquier template HTML en una WebAPP',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'Udemy'
+            'certified_by' => 'Udemy',
+            'logo' => 'udemy.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -65,7 +80,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Angular 5 y TypeScript - Curso de introducción paso a paso',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'Udemy'
+            'certified_by' => 'Udemy',
+            'logo' => 'udemy.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -73,7 +89,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Visual Studio Code: Mejora tu velocidad para codificar',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'Udemy'
+            'certified_by' => 'Udemy',
+            'logo' => 'udemy.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -81,7 +98,8 @@ class CertificationSeeder extends Seeder
             'title' => 'Primeros pasos con Vue.js | Vue en ejercicios',
             'width' => '185',
             'height' => '120',
-            'certified_by' => 'Udemy'
+            'certified_by' => 'Udemy',
+            'logo' => 'udemy.png'
         ]);
 
         DB::table('certifications')->insert([
@@ -90,6 +108,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'HTML/CSS',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -99,6 +118,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'JavaScript',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -108,6 +128,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Angular ',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -117,6 +138,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'PHP',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -126,6 +148,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'SQL ',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -135,6 +158,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'PHP, MySQL, and SQL',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -144,6 +168,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'MySQL and SQL',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -153,6 +178,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Linux ',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -162,6 +188,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Verbal Reasoning',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -171,6 +198,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Logical Reasoning',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -180,6 +208,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Numerical Reasoning',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 
@@ -189,6 +218,7 @@ class CertificationSeeder extends Seeder
             'name' => 'Daniel Sánchez',
             'title' => 'Numerical Reasoning (Hard)',
             'certified_by' => 'TestDome',
+            'logo' => 'testdome.png',
             'certified_type' => 'Certificate'
         ]);
 

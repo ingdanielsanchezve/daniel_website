@@ -20,6 +20,7 @@ class CreateCertificationsTable extends Migration
             $table->string('name')->nullable();
             $table->string('title');
             $table->string('certified_by');
+            $table->string('logo');
             $table->integer('width')->nullable();
             $table->integer('height')->nullable();
             $table->string('certified_type')->nullable();
