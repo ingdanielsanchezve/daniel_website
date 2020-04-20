@@ -13,6 +13,24 @@ class CertificationSeeder extends Seeder
     {
 
         DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/Learning_Functional_Programming_with_Javascript_ES6.png',
+            'title' => 'Learning Functional Programming with Javascript ES6+',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
+        ]);
+
+        DB::table('certifications')->insert([
+            'url' => 'https://iamdanielsanchez.ml/certificates/JavaScript_Test_Driven_Development_(ES6).png',
+            'title' => 'JavaScript Test Driven Development (ES6)',
+            'width' => '185',
+            'height' => '120',
+            'certified_by' => 'LinkedIn',
+            'logo' => 'linkedin.png'
+        ]);
+
+        DB::table('certifications')->insert([
             'url' => 'https://iamdanielsanchez.ml/certificates/JavaScript_Test_Driven_Development_(ES6).png',
             'title' => 'JavaScript Test Driven Development (ES6)',
             'width' => '185',
