@@ -17,7 +17,7 @@
         "kind-of": "^6.0.3",
         "laravel-mix": "^5.0.4",
         "lodash": "^4.17.15",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.6",
         "mixin-deep": "^2.0.1",
         "popper.js": "^1.16",
         "resolve-url-loader": "^3.1.1",
